@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kexin Hao</title>
+  <!-- include stylesheets here -->
+  <link rel="stylesheet" href="projects.css" />
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,615;1,400;1,615&family=Fredoka+One&family=Oxygen:wght@300;400;700&family=Varela+Round&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+
+$(function(){
+  $('.topbar').click(function(){
+      $('#navbar').toggle();
+        // window.location.hash = target;
+      });
+// $(function(){
+   $('.title').click(function(){
+       $('#tx' + $(this).attr('id')).show();
+       $('.maintextbox > div').not('#tx' + $(this).attr('id')).hide();
+       $('#info' + $(this).attr('id')).show();
+       $('.informationbox > div').not('#info' + $(this).attr('id')).hide();
+       window.location.hash = $(this).attr('id');
+
+
+        // $('.imagebox').not('#image' + $(this).attr('target')).hide();
+        // $('#image' + $(this).attr('target')).toggle();
+        // $('.text').not('#text' + $(this).attr('target')).hide();
+        // $('#text' + $(this).attr('target')).toggle();
+        // window.location.hash = target;
+      });
+
+      if(window.location.hash) {
+        var hash = window.location.hash.substring(1);
+        // alert (hash);
+        $("#tx" + hash).show();
+        $('.maintextbox > div').not("#tx" + hash).hide();
+        $("#info" + hash).show();
+        $('.informationbox > div').not("#info" + hash).hide();
+      };
+   })
+  </script>
+</head>
+<body>
+
+  <div class="topbar">
+    list
+  </div>
+
+
+  <nav id="navbar">
+    <ul class="menu">
+        <li class="title" id="about" style="font-family: 'Varela Round', sans-serif;">About</li>
+        <li class="title" id="merel">Merel</li>
+        <li class="title" id="olga">Olga</li>
+        <li class="title" id="sjors">Sjors</li>
+        <li class="title" id="soyun">Soyun</li>
+        <li class="title" id="yana">Yana</li>
+        <li class="title" id="quoter">Quoter</li>
+        <li class="title" id="radek">Radek</li>
+        <li class="title" id="aurora">Aurora</li>
+        <li class="title" id="saskia">Saskia</li>
+        <li class="title" id="sacha">Sacha</li>
+        <li class="title" id="mika">Mika</li>
+        <li class="title" id="kexin">Kexin</li>
+        <li class="title" id="sonia">Sonia</li>
+        <li class="title" id="ralph">Ralph</li>
+        <li class="title" id="kristiana">Kristiana</li>
+        <li class="title" id="ada">Ada</li>
+        <li class="title" id="erica">Erica</li>
+        <li class="title" id="fabiola">Fabiola</li>
+        <li class="title" id="agata">Agata</li>
+        <li class="title" id="daniela">Daniela</li>
+        <li class="title" id="kilia">Kilia</li>
+        <li class="title" id="adriana">Adriana</li>
+        <li class="title" id="ocean">Ocean</li>
+        <li class="title" id="malik">Malik</li>
+        <li class="title" id="eunji">Eunji</li>
+        <li class="title" id="tereza">Tereza</li>
+        <li class="title" id="emma">Emma</li>
+        <li class="title" id="katla">Katla</li>
+        <li class="title" id="ivi">Ivi</li>
+        <li class="title" id="ian">Ian</li>
+        <li class="title" id="linea">Linea</li>
+        <li class="title" id="scientist">Scientist</li>
+        <li class="title" id="president">President</li>
+        <li class="title" id="anke">Anke</li>
+        <li class="title" id="handi">Handi</li>
+    </ul>
+  </nav>
+
+
+   <div class="content">
+     <!-- <div class="topbar">
+        <div class="title">FatKat</div>
+        <div class="next">next</div>
+        <a href="../../index.html"><div class="home">home</div></a>
+      </div> -->
+
+      <div class="maintextbox">
+        <div id="txabout">
+          <br /><br />&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;..............................☝️
+          <br /><br /><br /><br /><br /><br /><br />&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;..........☝️......
+          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;..☝️......
+        </div>
+        <div id="txmerel" style="display:none">
+          <br /><br /><br /><br />
+          <span id="listing">Books</span>
+          <br />When you are starting to make a book in indesign the first step you need to do is make a master. With the master you can create a base.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;This master you can apply on the pages, this will create a constant flow through the book.
+          <br /><br /><span id="listing">Typesetting</span>
+          <br />The first thing I learned about typefaces is that there are always flaws in it.
+	        <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;It is important that every time you use a typeface, you look what is happening with your text. To really zoom in and look at the details.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;KERNING is KEY!!!
+	        <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;To get your kerning right you use justification. With this tool you can change the word and letter spacing. It is also important to look at the hyphenation, this tool is breaking the words at the end of the line of the text. It is important to use the right one, so that not only your text looks good in the end but also that you use the right rules.
+          <br /><br /><span id="listing">Paragraph style</span>
+	        <br />Tip number 3: If you have a lot of text in different blocks, use paragraph styles!
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;With paragraph styles you can with one click have the typeface, type size and right kerning. You don’t have to do it manually every time you put a new text in. It saves time and semblance mistakes.
+          <br /><br /><span id="listing">Enough white space</span>
+          <br />When you design a book, make sure the whitespace around the text is big enough.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Let me give you an example. You read a book on the train and you want to focus on the book and not on your surroundings. If you have the text super close to the edge of the paper, you constantly see the environment around you. Something you don’t want, because you want to focus on the existing story you read. Secondly, when you hold the book your fingers are over the text at any time.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;These two examples show that is crucial to have enough white space around the text. So you can completely disappear in the book and totally forget the world around you. In the end that is the function of a book. First comes the readability, then the design.
+          <br /><br /><span id="listing">Page numbers</span>
+          <br />If you design a book and you make a table of content, it's important to have page numbers. Never put you page numbers at the side where your book is bound. Because when you are binding your book, a part of the inside disappears. So when you have your page numbers on the inside, they aren’t readable.
+          <br /><br /><span id="listing">Capitals in a sentence</span>
+          <br />When there are capitals in the text, like “XVII” it doesn't look nice. As you can see it is very ugly to have big comparison between the capitals and lowercase letters. So here is a tip, use small capitals. Small capitals are made to fit with the lower case letters. Big capitals aren't. So that is why you need to small capitals in your text when you mention roman numbers or abbreviations.
+          <br /><br /><span id="listing">Line Spacing</span>
+          <br />When you want to make your text readable, there need to be enough white space between the lines of text. You never want letters to touch each other. That is a no go! You need to remember that you design for somebody else to read it. So keep in mind that you design the text not only in a beautiful way, but first of all in a readable way. A good amount of whitespace between the lines of text ensures that the reader can focus on the text / words that he is reading and that he doesn’t jump up and down the text because he is confused about where he is.
+          <br /><br /><span id="listing">Posters</span>
+          <br />Posters are the way to communicate with people.
+          <br /><br /><br /><br />
+        </div>
+        <div id="txolga" style="display:none">
+          <br /><br /><br /><br />
+          When you make an indent the white space between the lines and the edge where they begin should make a perfect 🪟.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;It is common to write the title on the spine of a book vertically - rotated 90 degrees. I heard that depending if you are in Europe or USA it should be rotated left or right. I don’t remember which is where.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;There are different kinds of hyphens and dashes. Between numbers you should use a n- or m-hyphen ie. “p. 254—261.” At line breaks, it should the default shorter one, and then there is a similar system for dashes except there are even more options. A normal dash between words, but next to a m-hyphen it should be less, like a hairline-space.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;There are different ways of designing numbers, in old system some would be lowercase while other uppercase numbers, I think the lowercase ones come off more harmonic, and should be used inside of text, while the uppercase ones are for number outside of body text, like page-numbers or such.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;If you ask a type-designer, it is a big no-no to create a ‘fake italic’ by simply slanting the letters. A real italic is designed at a different brush angle, and takes a lot of work to create, and slanting a regular weight it is considered violent.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Same goes for outlines. One could be tempted to create a bold or black weight of a given typeface by adding a stroke of perhaps 2 points, but this would violently change the proportions that the type-designer worked so long to obtain, it’s swearing in church.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Lately with the rise of trendy fashion brands and design-products from Scandinavia I have observed a very concerning tendency, bordering cultural appropriation. Sometimes in logos and other typography the æ ø or å are used to convey a sort of edgy, scandicool image, but as the pronunciation or meaning of the letters are not in other languages it becomes nothing but a gimmicky incorrectness.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;In Switzerland they have an extensive tradition of typesetting and I heard that still in Écal, students learn to do uneven ragging where every other sentence is short or long so a page looks like a beautifully even, horizontal fence.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;I learned the other day in Letterstudio, when designing a regular contrast typeface with serifs, that the serifs needed to be much longer and prominent than I thought from look at it. Of cause it is also because I haven’t seen it in a size 12 yet, so when the size is smaller they will almost disappear or become chunky weird little blobs.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;I know some graphic designers, use only Helvetica, or a maximum of eight different typefaces. I’m not sure if I would want to restrict myself like that, on the other hand it makes life simpler I suppose.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;So some typefaces are designed for display, and others for very small sizes with big ink traps and a density that makes them easily readable. But even the concept of readability is highly cultural dependent. I couldn’t read my grandmothers cursive handwriting as a child, because I was not used to looking at it. If you see only Helvetica, then Helvetica becomes the easiest thing to read. Not because it is the best or easiest typeface per definition. These defaults obviously have a cultural bias, and I noticed looking at Japanese or Chinese typefaces which come with a latin script, that the serifs and the expression is quite different, somehow more elegant. So I think it’s dangerous to define norms of ‘good or bad’ design, yet this is pretty much what the school system is designed to do, teaching us how to distinguish.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Children often mirror letters and it takes quite some years to decipher the correct orientation, which has something to do with the development of right/left brain parts. But also people who are highly dyslexic experience that the letters on a page rotate or jump or melt together into new formations and become harder to recognise, I don’t know if there are neurological reasons for this.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;I really don’t know why we have CAPS and also lowercase? And when did we decide to mix them?
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Printers get annoyed if you have a 5mm margin or less.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;It looks nice if there is some kind of symmetric relationship between the lines on a page, therefore using a grid is widely popular amongst designers.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Typefaces come in different qualities, and if you don’t pay for them you are more likely to get  faulty things, with missing characters, which you cannot trust.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;I recently learned the word interpolation. I like it. In type design it is when you use software like Glyphs to create in-between weights for a typeface. What it does is it takes a look at all your anchor-points, so it’s important that they are in the extremes. If you then give it a very bold, and a very thin type it will generate all the possible in-between by moving all these anchor points closer together or further apart.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;There are typefaces that have small capitals. Like majuscules, I think you call it. I think it’s more of an 18th century thing, which is rarely used today.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;More and more scripts are being programmed into unicode. I went to the embassy/exhibition space West, where they are displaying a project called alphabetum - missing scripts. Some designers, meade beautiful fonts out of letters that haven’t been digitized before, belonging to people whose language are maybe dying.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;In Arabic, there is a certain way of writing on keyboards, with Western characters. The way it works, I think, is that you write the way the word would sound written in Latin, so some words are easy like ‘wallah’ while other words which have sounds unfamiliar to the Latin script, so you write them with numbers like ‘el-mashrou3e’ it looks very cool, I’ve seen it mostly in chats, on facebook.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;The tricky thing about typography is spacing. Somehow with white there is a very subtle distinction, you don’t want too much but also not too little. The space around the text, you adjust with margins, and columns, and the space around the letters you adjust with line-height and tracking. Then there is the real challenge, kerning. The word itself is intimidating. I don’t know the word in any other language than English. Kerning is the space between the individual letters. It has to be adjusted, and there is little wiggle-room, it seems that there is just one right answer to the issue of kerning.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;The key to kerning is kerning-pairs. I’m not sure exactly what they are, but I associate it with the capitals AV - look how they are not monospaced. There is only a slither of space between them, they have been kerned in kerningpairs, look how BV look together…
+          <br /><br /><br /><br />
+        </div>
+        <div id="txsjors" style="display:none">
+          <span id="listing">How I usually start making a publication</span>
+          <br />I usually start by selecting typefaces that I think fit the project. Then I print the typefaces in different weights and sizes to see how they work on (different) paper. I usually choose no more than three typefaces but that really depends on the project.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;When I make a publication, I always start with the format because it has a lot of influence on the use of typefaces. When I have determined the size(s), I start making a grid based on the baseline spacing of my plain text. I then align my plain text to my baseline grid. From here I start determining text columns and margins.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;When determining the inner margins, I always take into account the fact that a certain part of the margin always disappears when binding. With text columns I always take the format of my publication into account. With a pocket book, a layout of 4 columns will not work, while with a magazine format this can work well.
+          <br /><span id="listing">Choosing a typeface</span>
+          <br />First, I determine the purpose of the typeface. Is it for digital or analog use? Is it used for a plain text or display? Which form fits the project for which I use it? These are basic questions, usually other questions arise during my research. I think it is useful to have answers to this. This way I know what I am looking for, otherwise I am afraid that I will get lost in the big amount of typefaces that are avaible.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;When choosing a typeface, I usually always look at its possibilities. Does it have an upper case and lower case? Does it have multiple weights? How many special characters does it have and which ones? How does the typeface work with other typefaces? In this way I know what freedom I can afford.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Then when I have collected a selection of fonts for project, I make small tests with the font. As I said before, the fonts print in different weights and sizes (usually between 6 pt and 21 pt). When printing, I always use the different paper that I have chosen for the project. This way I know what freedom I have with the typeface.
+          <br /><span id="listing">Making a grid</span>
+          <br />When I have chosen my typeface and determined the corps size for the plain text, I often immediately create a grid for the publication. I determine the distance of the grid by taking the line distance from the plain text (the baseline). I maintain the distance both horizontally and vertically. It rarely or never happens that your grid exactly fits with the dimensions of your grid. That's why I always smuggle a bit with the dimensions, so that the grid will fit exactly.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;When the grid is set I will determine what the distance of the margins should be. Always keep in mind that the inner margin must have at least 5 to 10 mm extra because otherwise the text on the inside will disappear when the publication is printed. When determining my margins, I always take into account the number of columns that I want. This is important because I always want to ensure that my columns fit exactly on my grid. This means that the distance between the columns must be as much as the line spacing. I usually opt for six columns but with smaller dimensions for four.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;NOTE: The grid is a tool, never let your own grid limit you in possibilities.
+          <br /><span id="listing">Hierarchy of your text</span>
+          <br />Having a clear hierarchy in your publication is important for the reader to understand how he / she should handle the text. Determining your hierarchy depends entirely on your publication. The different text types in your text, the format of your publication, your chosen typefaces, the way of printing, etc. all influence the hierarchy.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Usually for determining my hierarchy, I use a part of the text in the publication that contains many different types of text. With this text I will make many different layouts to see how the typefaces relate to each other. When I know which corps sizes, weights and colors of the typefaces work well together, I start to prepare the publication. Most of the time I start at the beginning of the text, when designing the layout it always happens that you discover new problems to solve. This is not a problem because by that time the basis is already there and it is a matter of being creative with your problem.
+          <br /><br /><br /><br />
+        </div>
+        <div id="txsoyun" style="display:none">
+          <br /><br /><br /><br />
+          Typography is a message which is intended to be visualised. It is architecture of written information serving its tenants, considering the tenants’ lifestyle, preferences, their numbers or/and relationship status.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;One of the main reason typography exists is for communication. Due to its personality, typography often deals with rational matters depending on situations. For certain occasions where the clarity should perform priorly, typography should reflect on its function through technical elements such as kerning, spacing, hyphenation, indentation, its layout and alignment. It is carefully selected and used as an image which holds the message constructed by its user’s creativity.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Typography has been a reflection of the history which mankind has been building with words. Depending on the character, atmosphere, needs, culture, function, language, time and place, it appears in a different visual form. It is always there where communication is needed to enhance the understanding between parties.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;What do I know about typography?
+          <br />☝️Spaces between letters function as a clarity but also breaths between reading.
+          <br />☝️The ones with larger sizes and more vivid colours normally attract more attention.
+          <br />☝️Typefaces can have lots of different personalities, histories and intentions. It is shown in both very details and appearances our eyes immediately catch.
+          <br />☝️Typography started to be developed when human started to write.
+          <br />☝️The writing activity made humans have privacy — from the verbal, in person communication required more than one person — to own, personal communication on mediums we can write and make it visible.
+          <br />☝️Typography made this activity more private and also global within the community where shares discourses.
+          <br />☝️When it’s combined with image, the power doubles and can be intentionally used for propaganda.
+          <br />☝️Typography is sound of the text.
+          <br />☝️The sound can be loud, experimental, pleasant, unpleasant, functional, quiet, multiple, classic, interactive, direct, subtle, entertaining, angry, happy, sad, playful, emotional, bold…
+          <br />☝️It places information to deliver the message.
+          <br />☝️In collaboration with images, exaggerate/develop understanding of the context.
+          <br />☝️Follow the rules
+          <br /><br /><br /><br />
+        </div>
+         <div id="txyana" style="display:none">
+           <br /><br /><br /><br />
+          <span id="listing">Baseline Grid and leading</span>
+          <br />☝️If you want to make a baseline grid you need to put transparency to 5% so that you can see it and also make it start from the top of the page. For the text to be aligned to the grid you need to make the leading the same pts of text. Then you snap to grid.
+          <br />☝️It is helpful because you have clear running and tight text.
+          <br /><br />
+          <span id="listing">Document Grid</span>
+          <br />☝️Document grid is helpful because you can align very carefully typography and other elements to it. You can also track position of characters in between words.
+          <br /><br />
+          <span id="listing">Hyphenation</span>
+          <br />☝️never hyphenate last word of text box over text boxes.
+          <br />☝️generally you can change hyphenation settings so that you have less hyphens. I think is good to hyphenate words with 5 or more syllables after the third syllable.
+          <br />☝️When you make justified text you should turn hyphenation off;
+          <br /><br />
+          <span id="listing">Keep lines and words together</span>
+          <br />☝️When you have a wide column you should not leave orphans in the end. Meaning you shouldn't let one word to sit alone at the end of the paragraph or in end of column.
+          <br />☝️When you have a new paragraph over columns or end of paragraph over columns is generally good to keep 2 lines together in it.
+          <br /><br />
+          <span id="listing">Dashes</span>
+          <br />☝️there are different types of dashes for different things
+          <br />☝️dashes are used to separate words and are different from hyphens.
+          <br />☝️em dash and en dash
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1. you visualise em dash as the length of m — and n dash as the length of n – (hyphen -)
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2. Em dashes save the day when other punctuation would be awkward. For instance, em dashes can replace parentheses at the end of a sentence or when multiple commas appear in a parenthetical phrase
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;3.The en dash is often used to indicate spans of time or ranges of numbers. In this context, the dash should be interpreted as meaning either “to” or “through.” Consider the examples below:
+          <br /><br />
+          <span id="listing">Indentation</span>
+          <br />☝️When you have indented paragraphs the starting paragraph is not indented
+          <br />☝️When you indent paragraphs you don't separate also with a line brake
+          <br />☝️Indentations should be proportionate to type syze
+          <br /><br />
+          <span id="listing">Old medieval book layout</span>
+          <br />☝️old medieval pages are golden ratio. This diagram shows how you create margins and space for text.
+          <br />Master Pages<br />
+          <br />☝️technical stuff
+          <br />☝️depending on your layout you can use master pages as a typography mold because text boxes, boxes in general and any kind of markings stay in them for every page you add.
+          <br />☝️you can have different types of master pages serving different uses of your layout
+          <br />☝️Folio numbers should be placed usually in master page for example or running headers so that you don't have to align them every time.
+          <br /><br />
+          <span id="listing">Margins</span>
+          <br />☝️Margins allow the books to have a good reading flow. I think if you have small margins is generally not good for readability.
+          <br />☝️Head margin
+          <br />☝️Foot margin - should be biggest?
+          <br />☝️outer or forehead margin
+          <br />☝️inner margin
+          <br /><br />
+          <span id="listing">types OF type</span>
+          <br />☝️There are different types of type that allow better readability in small pts
+          <br /><br />
+          <span id="listing">stretching text</span>
+          <br />☝️Stretched text is generally not good sometimes you can do glyph scaling but just a bit so that you fit texts that are not fitting well. For example in a layout or in page numbers. To print in sections you need at least 16 pages so 4 pieces of paper.
+          <br /><br />
+          <span id="listing">formats</span>
+          <br />☝️Magazine formats are different then pocket books obviously and have a different treatment.
+          <br />☝️Good number for grid for magazine is uneven and more than 5 ??????
+          <br />☝️pocket book format is usually standard
+          <br /><br />
+          <span id="listing">grids</span>
+          <br />☝️Except for baseline grid and document grid you can make a custom grid that goes well with the design of you content in order to have coherency in the layout. You make this in the master page by creating columns and then leaving space between the columns for readability (gutter)
+          <br />☝️then you can start defining rules of your layout.
+          <br />☝️For example:
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1. you can say that pictures are on the left and take a certain amount of columns as space.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2. you can say that pictures always start from second column
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;3.you can say that quotes are always two columns in the middle
+          etc
+          <br /><br />
+          <span id="listing">paper</span>
+          <br /><span id="listing">printing</span>
+          <br />☝️you shouldn't use inkjet printer when you want your typography to be sharp. you should laser one.
+          <br /><br /><span id="listing">Paragraph styles Character styles</span>
+          <br />☝️you can set everything already in paragraph styles and character styles - meaning you set all components of text - points, leading, hyphenation etc in a button that lets you just highlight and press and all characteristics of the typeset text automatically become the same over different text-boxes. It saves a lot of time. character styles have only character settings in them and can be used when formatting something within paragraphs but paragraph styles are containing whole paragraph settings within them like keep options etc. so when you format paragraphs is logical to use them.
+          <br /><br />
+          <span id="listing">Kerning</span>
+          <br />☝️if you are kerning a single word you can rotate it upside down.
+          <br />☝️some typefaces have better kern than other but in bigger sizes of text generally is good to go trough the kerning
+          <br /><br />
+          <span id="listing">justified ragged texts</span>
+          <br />☝️justified texts usually leave rivers so you need to change setting in indesign
+          <br />☝️there is helpful future in indesign that shows you yellow lines when something is not justified well.
+          <br /><br />
+          <span id="listing">setting for justification</span>
+          <span id="poetic" style="font-style:italic;">
+          GLYPH stretch or narrowing<br />
+          OPTICAL MARGIN ALLIGNMENT CHECK IT OUT<br />
+          Contrast of page<br />
+          15-23 octavo<br />
+          hello me studio try to not have little words in end<br />
+          page numbers titlle page include<br />
+          ideas for typeset;<br />
+          keep columns 3 as you did in the class and then maybe try to follow the original layout so where there is image or add keep it clean;
+          <br />ragging text: i think u should look for short word comming out and then put them on next line with shift+enter sometimes you can squeeze lines that are translated on next line and connect them so it looks better
+          <br />maybe you can go for some of balance between the length of the ragged lines big one or not i am not sure about it
+          <br />in a page usually there is different heirarchy of meaning which means that you need to translate it into the printed page and typorgraphy using different contrast, sizes,
+          </span><br /><br />
+          <span id="listing">typographical elemeents of the printed page</span>
+          <br />☝️page title
+          <br />☝️page header
+          <br />☝️page running header
+          <br />☝️page footer
+          <br />☝️page folio
+          <br />☝️contrast
+          <br />☝️page contrast:
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1. a page of text contains contrast the text is the black and the paper is white. Generally you need to have a good balance between them because of readability first and second aesthetics i guess.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2. also in typefaces there is contrast grotesk typefaces are without contrast and were considered grotesk bla bla bla
+          <br /><br />
+          <span id="listing">choosing typefaces</span>
+          <br />☝️there are different types of typefaces that have different purposes. some that are good in small sizes and some that are good in bigger sizes.
+          <br />☝️serrif , grotesk, script, modular etc.
+          <br /><br /><br /><br />
+        </div>
+        <div id="txquoter" style="display:none">
+          <br /><br /><br /><br />
+          <br /><br /><br /><br />Typography can invoke a feeling, remind you of a certain brand, or create an atmosphere.but when it is bad it can even be unreadable.
+          <br /><br /><span id="listing">Paper Formats:</span>
+          <br />the appearance of the typography is greatly influenced by the quality of the paper and printing process used.
+          <br /><br /><span id="listing">Macro:</span>
+          <br />relate to layout, Macrotypography focuses on how type is arranged on the page.  It deals mainly with readability and can be thought of as the design of paragraphs and the page.
+          <br /><br /><span id="listing">Micro:</span>
+          <br />relate to anatomy of letters, has to do with the details; setting the right glyph, getting the appropriate kerning and tracking, and making stylistic choices such as when to use small-caps.Microtypography deals mainly with legibility and can be thought of as the design of letters and words.
+          <br /><br /><span id="listing">Letterspacing:</span>
+          <br />the adjustment between all letters
+          <br /><br /><span id="listing">Kerning:</span>
+          <br />space between individual letters, the number 1 you always have to adjust, I think no matter which typeface. kern upside down
+          <br /><br /><span id="listing">Lining of numbers and digits:</span>
+          <br />proportional or tabular lining.
+          <br /><br /><span id="listing">Leading:</span>
+          <br />reading is difficult when there is too much leading, because the linear pattern becomes invasive and with too little leading the run of the lines, which is important for legibility is submerged under the surface. the most legible composition is the one in which the effects of line and surface are nicely matched.
+          <br /><br /><span id="listing">Optical margin alignment:</span>
+          <br />Punctuation at the margin of a text frame can make the left or right sides of a column appear misaligned. Hung punctuation refers to the practice of slightly extending lines of text that begin or end with punctuation marks into the margin, in order to improve the optical alignment of the column of text. In flush left or justified text, a line that begins with quotation marks or an apostrophe can appear to be indented. This is because these punctuation marks are smaller than most other characters, with large amounts of white space surrounding them. As a result, the margin looks uneven.
+          <br /><br /><span id="listing">Greyness of a text:</span>
+          <br />There are letters and words that need specific attention for making the grauwert correct:
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;letters like:ktyvwfrz leave a weird spacing and weird gaps of white when they are set against each other. when letters are set in the right way the same greyness should appear within the whole text. In order to judge the greyness of the text you need to look at it from a good distance. compositions with spacing too narrow would either give an area too light or an area too dark, depending on the letter combination.
+          <br /><br /><span id="listing">handwriting:</span>
+          <br />The laws of handwriting are very different than the laws of printing: the designer has a wide range of different typezises at his disposal, but he must realize that he works not merely in different sizes but also in different grey and different depths of tone
+          <br /><br /><span id="listing">Paper texture and printing process:</span>
+          <br />influence on the final outcome and visual of the typeface and design.different paper and printing techniques (Laser, offset) develop a different outcome and appearance. in the history of type casting, developments in papermaking and writing have bought an important influence to bear on the design of typefaces.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;it is important to understand that with the size, typeface, greyness, etc that you as a designer choose you communicate certain ideas and things. Or better you need to be aware of what the text wants to communicate.
+          <br /><br /><br /><br />
+       </div>
+        <div id="txradek" style="display:none">
+          <br /><br />
+          <br /><br /><span id="listing">PAGE LAYOUT:</span>
+          <br />☝️The design of the page in relation to the spread can be with symmetrical margins (eg. the page numbers are positioned towards the spine), or asymmetrical margins (eg. page numbers are positioned 10mm left from the start of each page).
+          <br />☝️The spine of the book acts as a symmetry axis for the pages, so even if the layout is ‘asymmetrical’, it is repeated symmetrically on the spread.
+          <br />☝️There are different ways of defining the spread size and the text box contained within, for most common spread sizes (paper dimensions) refer to height/width ratios mentioned in Designing books by J. Hochuli, and also for text box dimensions, described by him, based on Tschichold and Van Graaf methods of using the spread geometry (golden ratio and all that stuff).
+          <br />☝️Other way is to determine the text box by defining margins: Top, Bottom, Left and Right in case of asymmetrical pages (pages repeat from left to right, think of a stamp that is being repeated on each page ), or Top, Bottom, Inside and Outside in case of the symmetrical layout ( pages are reflected as if the spine was a mirror).
+          <br />☝️Always design according to the projects, but all equal margins with a bigger bottom one is a safe choice for symmetrical layout, and Top and Left equal, Bottom and Right bigger (but not necessarily equal) for asymmetrical.
+          <br />☝️Interesting margins according to J. Brockmann: 2x right, 3x bottom, 1x left , 1.5x top.
+          <br />☝️Margins after Tschichold : 2x, 3x, 4x, 6x (counting from the inside clockwise).
+          <br />☝️Navigation (headers, page nr.) are a good way to structure the page, help orient in the book and lead the readers eye, but should also serve a purpose—it’s probably not necessary to write the authors name two times on the spread, the purpose of writing the books title on every spread is also up to debate.
+          <br />☝️(Most often) it’s good to leave the second page blank (when counting the cover as page nr 1) and put the title page on the 1st recto (right page), sometimes because of the binding, etc. the first recto has the title of the book in small letters, and a ‘proper’ title page is on the 2nd recto.
+          <br />☝️Nice idea after Hochuli is to construct the cover according to the inside grid.
+          <br /><br /><span id="listing">THE GRID:</span>
+          <br />☝️helps to rationalise the text/image layout, especially helpful when dealing with a lot of information, especially the kind that is systematically repeated (think encyclopaedias , phone books, dictionaries, etc.), and is extremely helpful when designing with other people!!!
+          <br />☝️at the same time it is an indicator, not a strict system—if needed, it can be broken.
+          <br />☝️Not only columns, but also horizontal divisions (especially for images).
+          <br /><br /><span id="listing">BASELINE GRID:</span>
+          <br />☝️setting the text helps to rationalise the placement across the book, ease of reading.
+          <br />☝️the grid could be defined by a specific size (eg. top margin is 5mm, and the baseline is 5mm), to which the type sizes and leading are adjusted.
+          <br />☝️or the grid could be set according to the most common type size and leading, eg. Garamond 10.4pt with 12.1 pt will be the body of the text, the baseline is set to 12.1pt.
+          <br />☝️Other type sizes could be set to the baseline grid as well (then the leading is most usually twice bigger or smaller), or not. If not, it’s best to at least align the first line of the other text, so the top of columns align.
+          <br />☝️Baseline grid should order, but also help at the same time.
+          <br /><br /><span id="listing">PARAGRAPHS:</span>
+          <br />☝️Separate paragraphs can be indicated by empty lines or indents.
+          <br />☝️If you make indents to indicate a paragraph, the first one on the page should not be indented.
+          <br />☝️Look out for widows and orphans across columns and pages i.e. don’t leave single words in the last line of a paragraph across pages and columns. It’s good practice to avoid two, three, etc. words as well. Especially if you indent for a new paragraph, usually the last line of the paragraph should be longer than the indent size.
+          <br />☝️It’s good practice (especially in unjustified text) to avoid leaving ‘single’ words at the of the line, like: I, first word in a new sentence, last word in a sentence, ‘a’ (if it’s an article to the word in the next line), ‘the’ (same story).
+          <br />☝️Of course don’t break these words across lines!! (two points up).
+          <br />☝️In case of unjustified text, the ragged lines will need some attention to balance the ragging, see flattersatz.
+          <br />☝️In case of justified text, the word and letter spacing will most definitely need adjustment to minimise spacing rivers in the line.
+          <br />☝️Tricks to balance lines: use soft Enter, minimally change the word tracking, in VERY extreme cases decrease the type size by 0.0x points.
+          <br />☝️(INDESIGN) always change the paragraph styles, the default settings are not good, especially for hyphenation (usually before and after letters should go up to 3-4), and justification (the default is usually to big, 70 85 90 is better).
+          <br />☝️(INDESIGN) TYPE>STORY>Optical Margin Alignment is a great idea.
+          <br />☝️(INDESIGN) for bigger amounts of text paragraph and character styles are a must, paragraph for bigger sections, character for special cases (eg. emphasis by italics), work with a numpad keyboards for speedy shortcuts.
+          <br />☝️(INDESIGN) Look into different paragraph composer algorithms.
+          <br /><br /><span id="listing">COLUMNS:</span>
+          <br />☝️7–10 words per verse is a good estimate to keep to, too short verses are annoying to read, and too long ones strain the eye.
+          <br />☝️—Multiple columns should have clear, distinct gutters.
+          <br />☝️Odd number of columns can give a page a dynamic layout, especially in a case of symmetrical margins.
+          <br /><br /><span id="listing">TYPE DETAILS:</span>
+          <br />☝️In running text (for reading), a well spaced typeface with good balance of contrast is important, and it’s good to give the letters enough air, tight tracking looks cool but is tiring to read.
+          <br />☝️It’s almost always best to use regular weight of a typeface, because of equal distribution of white and black space and the contrast flow—bold weight in smaller size has fades away, and light weight looks too thin.
+          <br />☝️Don’t make the leading too tight, usually looks good on the screen but not in print.
+          <br />☝️Too wide leading makes the lines fly away.
+          <br />☝️All caps is harder to read because of the uniform height of letters.
+          <br />☝️Old style number figures are better within a running text because of their varied heights and placement on the x height, lining is good for posters, etc.
+          <br />☝️Proportional numbers are better for running text, tabular for tables ( numbers are then monospaced, so it’s easier to compare them across columns and rows).
+          <br />☝️Italics (or slant) can be used for emphasis, as quotes, or for different things, most important is to be consistent in use.
+          <br />☝️Small caps could be used for emphasis within text, as it blends better with lowercase than normal capitals.
+          <br />☝️for smaller sizes, serif type is most often better for reading.
+          <br />☝️It’s usually a good idea to limit the number of typefaces within a book, as well as the different weight and sizes: differentiation through layout, caps, etc.
+          <br />☝️On posters, covers, etc. where display type is used it’s good to look at the kerning of the letters, especially if the typeface is not well spaced.
+          <br />☝️It’s usually good to equalize the blackness of type within the spread
+          <br /><br /><span id="listing">HYPHENS:</span>
+          <br />☝️hyphens (-) are used in compound words, like jack-o-lantern, and break words across lines
+          <br />☝️en dash(–) is used for periods of time, like 1994–2019, 2am–4am, etc.
+          <br />☝️em dash(—) is used as a punctuation symbol in a sentence, could be used instead of a comma,  parentheses, colon and semicolon, e.g.: ”And yet, when the car was finally delivered—nearly three months after it was ordered—she decided she no longer wanted it, leaving the dealer with an oddly equipped car that would be difficult to sell.”
+          <br /><br /><span id="listing">POSTERS:</span>
+          <br />☝️Most of these rules don’t apply to posters, where more craziness is allowed, but if it’s necessary they could be also applied to construct a ‘rational’ design.
+          <br /><br /><span id="listing">MYSTERIES:</span>
+          <br />☝️no idea what are the rules with making lists, definitely em dash is not the right thing to use, most probably bullet points and of course numbers. When making a numbered list its good to throw the numbers out of the text box alignment.
+          <br />☝️not sure about the rules of using quotes, in Poland you use double quotes  („”), but the first quote mark is on the bottom of the line, while (I think that) in English you can use double or single quotes, and both are on the top of x-height (“”), (‘’).
+          <br />☝️the usage of quotations and brackets with commas and stops?
+          <br /><br /><br /><br />
+        </div>
+        <div id="txaurora" style="display:none">
+          <br /><br /><br /><br />
+          <br />☝️Golden proportions of margins
+          <br />☝️Can choose type sizes for type hierarchy through math so they are more harmonic
+          <br />☝️Justification (70-85-90), but in general tweak for better word spacing
+          <br />☝️1 always has to be brought closer
+          <br />☝️Also watch out for the letter space between the A, V and other letters
+          <br />☝️Use smallcaps for names/acronyms, etc. within the text
+          <br />☝️Also use smallcaps when writing all in caps, they are better kerned than regular caps because they are meant to be next to each other as opposed to caps only meant to go next to lowercase body text
+          <br />☝️If oldstyle numbers are available, also use those, they go more harmonically with the x height of body text
+          <br />☝️Often line height is too large
+          <br />☝️Tweak hyphenation
+          <br />☝️Avoid orphans and widows through all the tools above
+          <br />☝️12 words per line
+          <br />☝️Clear hierarchy by size
+          <br />☝️Depends on the typeface, because they vary in size, but body text should probably not be smaller than 11pt and no bigger than 14pt for comfortable reading
+          <br />☝️Don’t use two highlighting techniques at once (ie. italic AND bold)
+          <br />☝️() often need to be brought higher to look like they are on the baseline and aligned with the text
+          <br />☝️Leave space in the margin for people to hold the book and not cover text with their fingers
+          <br />☝️Leave extra space in the left margin where the book is bound (0.5-1cm depending on the thickness and binding) for visibility lost in the fold
+          <br />☝️Humanist typefaces are best for reading bc of their reference to calligraphy and organic feel
+          <br />☝️Ornamental type should only be used in big sizes, short texts and displays, otherwise you really compromise legibility
+          <br />☝️Legibility refers to the way the typeface is designed and how easy it is to distinguish letters from each other. Readability has to do with the way the text is arranged on the page.
+          <br />☝️Use grids to line up other elements on the page (ie: running headers, titles, page numbers) and guide the reader’s eyes to them more easily
+          <br />☝️Paragraph styles will save your life, automate what you can
+          <br />☝️Don’t mix too many different typefaces and let the system have a logical reason behind your choices – maybe 2 typefaces max, and let them have enough contrast between them to not be confused
+          <br />☝️A typeface is a family of type, which contains different fonts- ie bold, condensed, italic, for ex: Neue Haas Unica. A font includes not only the style but also the specific size, for ex: this is Neue Haas Unica Regular 14pt
+          <br />☝️This ¶ is called the Pilcrow and it comes from medieval tradition, where it was used to signal the start of a new paragraph without changing to a new line
+          <br />☝️If you justify the text, there will be strange gaps, so maybe use tighter wordspace and tweak afterwards
+          <br />☝️Either indent or empty line but not both
+          <br />☝️HelloMe – using blocks that are the height of line-height and text wrap to change the way the right edge of the column looks (radical version of swiss typesetting)
+          <br />☝️Swiss rags – when the right edge is so perfect its almost justified
+          <br />☝️Justified left – tightened wordspace to avoid white space
+          <br />☝️Used narrow font (Roboto), since page is already small and narrow, to fit more words on the page
+          <br />☝️On a 9x9 grid, divided it again and made it 18x18, for more flexibility but the same proportions
+          <br />☝️Double-clicking on Paragraph Style, in the Paragraph Style Options window, under the Indents and spacing tab, under alignment there’s a useful option that reads: “Balance ragged lines”
+          <br />☝️If page numbers are not important, maybe only the page number on the right page is necessary.
+          <br />☝️Long lines are harder to read, it’s easier to lose track of where you are in the text.
+          <br />☝️It’s important to test the way the type looks with the printer of choice– inkjet can look very different from laser, especially in the sensitive parts of the letter like the thinner strokes.
+          <br />☝️A long continuous body of text can be overwhelming visually, consider adding space in the paragraph breaks to give the readers’ eyes a break too.
+          <br />☝️There are 3 kinds of dashes, shorter to longer: hyphen (-), en dash (–), and em dash (—). Hyphen is used to separate words that were together or are two joined together. En-dash is used for dates, time periods, etc. Em-dash can be used sort of like a parenthesis, to create a pause or break up a sentence.
+          <br /><br /><br /><br />
+        </div>
+        <div id="txsaskia" style="display:none">
+          <br /><br /><br /><br />
+          Set text within a grid. All text should always be subordinated to the baseline grid. Best is if the baseline grid is within the margins of the page. The baseline grid should have the spacing of the leading of the dominant body text.  Even footnotes, images, titles, heading, etc. It’s important that the text tensive composition. Chose margins that create dynamic or a certain tension. A common used margin is the golden ratio. Kern & track. Always kern the 1. Whitespace is just as important as the typeset area. Work with paragraph styles to create a consistent hierarchy of typography, work with character styles in exceptional cases. I was once told by Eva that you should put Kerning on Optical. Adjust the leading manually according to the font size, never leave it on Auto. Hyphenations must never occur in the following occasions: a name, after one letter, after two hyphens. There’s a correlation between hyphenation and better spacing. Never begin the first paragraph of a text with a first line indent, only start doing this paragraph format from the second paragraph onwards. After importing, always start with reading and editing the text file. Get out any incorrect use of characters like a space before a question mark. An easy way to spot these mistakes is to go to type > show hidden characters. Command F is a function in which you can find and replace certain characters. Only after you have completed this step you can start with paragraph styles and character styles. Never never never have one or two sentences of a paragraph in one column and the remaining text of a paragraph on the other. This could be that the first sentence(s) are separated, in Flemish we call this a ‘son of a whore’ or the last sentence(s), a ‘orphan’. Only adjust these when you are finished and satisfied with your paragraph styles and character, otherwise it will become a frustrating mess. The worst is when one column is on one page and the other column is on the next. If you want to fix this you do a column break. The InDesign shortcut for this is fn + enter. It’s easiest if you do your title in a different type box. To add page numbers you must go to the master. This is by the also the place where you must determine your columns and margins. Of course you can make multiple masters. They are arranged and with the letters A, B,... by default. To apply a master to a page or spread, select them and drag them to the page you want it applied to in the pages panel. Back to the page numbers, go to type > special character > markers > insert page number. I recommend that if you work with justified text to spend extra time on hyphenation and spacing. The eyedropper tool is a very useful function to use for speeding up the process of paragraph and character styles. Sometimes it’s also good to brake the grid once in a while to prevent the layout from getting boring. It’s important to remember that some fonts are more applicable to use in a book than others. Sometimes fonts look better on a bigger scale like in posters. DIN formats and letter format is a total different way of designing. How text is treated is in the ideology of the designer.  Also, printing is a fucking pain. Making a booklet is a FUCKING pain.
+          <br /><br /><br /><br />
+        </div>
+        <div id="txsacha" style="display:none">
+          <br /><br /><br /><br />
+          <br />☝️Margins inside a book should always be big enough, so that when you open the book the text is still readable.
+          <br />☝️Think of the contrast of a typeface when you choose the paper for a book: low contrast does not work very well with very yellow paper. This makes it less readable.
+          <br />☝️Watch out with placing text too close to edges of the book/small margins. When you you will cut the book there is a bigger change you will cut through parts of the text.
+          <br />☝️Another problem with small margins is that when you hold a book, your vingers block the text.
+          <br />☝️Think of where you place page numbers, they are used to guide you through a book, so if they are close to the margin inside it is not very easy/practical for the reader to find a page.
+          <br />☝️Consider that if you place your page number close underneath your running text, that it leaves with less freedom/space if you running text should be maybe one sentence longer on the same page to look more beautiful with paragraphs for example.
+          <br />☝️The width of a page is important when you decide on the type size. A big type size for running text does not really work in a very small book. The same the other way around. A very small typeface in a wide book. It very exhausting to read really long lines of text.
+          <br />☝️Never let a grid limit you in your design choices. If you need to step away from it, than do it
+          <br />☝️The right page of the book is the first one you see, take this into consideration when you are designing you layout. Usually it is better to for example have your table on content on the right page.
+          <br />☝️A two page title page can look good but take in consideration that sometimes it results in having a blank page before the title page because your running text in not long enough to cover the right page as well.
+          <br />☝️A line of text running from the left to the right page usually does not work because of the  binding of a book you loose space inside of the book.
+          <br />☝️When choosing a typeface always look at the glyphs and the font family, does it include what you need?
+          <br />☝️If the space between words is too big, it is exhausting for the reader to read the text
+          <br />☝️If the space between words is too little, it is hard for the reader to read the text.
+          <br />☝️When you don’t align your text, always check the ragging. Does it look weird or good? You can always enter a word to make is look better
+          <br />☝️When you use big sized text, check if the space between lines of text underneath each other does not get to big
+          <br />☝️Check em-dashes, punctuation
+          <br />☝️Start with choosing a format, then a grid, font, paper
+          <br />☝️Check if the ‘ / “ are right.
+        </div>
+        <div id="txmika" style="display:none">
+          <br /><br /><br /><br />
+          <br />☝️When aligning text pay attention to the hyphenation.
+          <br />☝️With big type hyphenation can be turned off (in most cases).
+          <br />☝️Line height is not always best automatic.
+          <br />☝️Get rid of orphans (for instance by using different hyphernation).
+          <br />☝️You can put text in multiple columns, for instance on a grid.
+          <br />☝️OR if you are a rebel, off the grid.
+          <br />☝️If your type is really small, make sure the column is the right length for a good readability.
+          <br />☝️In any case have a correct proportion for columns and text size
+          <br />☝️Adjust the space in between letters (kerning)  if it has an odd proportion (especially in titles/big type).
+          <br />☝️You can make use of indents every paragraph if the text is dense, to make the start of new paragraphs recognisable.
+          <br />☝️Check what was the original purpose for the font you are using (when the designer designed the font).
+          <br />☝️Make sure the type size fits with the paper size.
+          <br />☝️If type is placed very specifically (for instance centered) make sure it is placed correctly, not slightly off.
+          <br />☝️Use a linear structure for the text blocks, so the reader can follow the text well.
+          <br />☝️In most cases use one typeface for a text.
+          <br />☝️In most cases a simple solution of layout change (cursive or underline), for instance for a title, works better then changing into a complete new layout.
+          <br />☝️First step: paper size.
+          <br />☝️A grid can help you to place your text in a structured way.
+          <br />☝️Without a grid a text can look playful, or maybe just sloppy.
+          <br />☝️Page numbers in regular places and sizes are the most logical and easy way to use them, if they are differently places or sized or designed, have a good reason for that.
+          <br />☝️You can make use of title headings on the top or bottom of the text.
+          <br />☝️Multiple texts can run along side of each other, make sure that the designed difference between the texts makes hierarchical sense.
+          <br />☝️Fixing orphans and widows are details that can be done later in the process of typesetting, but have to be kept in mind when thinking of text and column size (+hyphenation).
+          <br /><br /><br /><br />
+        </div>
+        <div id="txkexin" style="display:none">
+          <br /><br /><br /><br />
+          In the very primary stage of learning Chinese, we have the exercise sheet with a grid system. Everyone, every school, in every corner in the country uses this system. The grid system consists squares with margins around each. There are four sub squares in a square. The four sub squares plus the big square that contains them are all diagonally structured with dotted line. You write a Chinese character in the square and the grid system helps you observe and learn the location and direction of the strokes. We call this kind of grid system: 田字格 as in “farming box”. And the character 田 (farm, field) comes from the figure of the farm/field, where you see the division.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Later on we learn how to write articles. Instead of the grid system for single character, we are given a grid system for paragraphs. There are still squares with margins but without sub squares and dotted lines in them. We write articles with the help of squares. We start with two empty squares as the indent. Almost every punctuation deserves a whole square. If you reach the last square in the line with the character, you squeeze the punctuation inside the same box. Normally you have 400 boxes/units in a sheet — in this way the sheet is also a calculation/measurement.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;And we learn to write english with the help of horizontal lines. Four horizontal lines construct a single line of writing. Later when I entered the art school, I discovered the very similar way of practicing roman calligraphy. Instead of four lines, there are six (or more). I used to compare the four line system with notes, back in the days when I was learning piano.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;When it comes to type setting on computer. Things are very different. I will talk about my most recent knowledge.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;No matter what programme you use, you start with choosing a template. There are always given templates for lazy people, where you find the given margins, formatting, alignments and etc.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Generally the elements to pay attention are:
+          <br />☝️Units — how you measure everything, either using points or millimetres or whatever;
+          <br />☝️The sheet (the space where you type) itself: size, dimension, margin, background…
+          <br />☝️The structure of your text, the different elements of your text (title, subtitle, body text, footnotes…)
+          <br />☝️The paragraphs: the indent, the alignment, the distance between lines, the space between letters/characters, how to start a next paragraph, how to end a paragraph, some actions to take when exceptions happen (e.g. in the paragraph there the last one little word is left out to start a whole line; at the edge of the page there is only one line in the paragraph left out..), how to squeeze/drop out words in/from a line…
+          <br />☝️The characters: the font, the distance between letters, the distance between words….
+          <br /><br />There are two parts to consider when it comes to micro typography: to think of its instrumental use in the content and its appearance in the layout. Here is an example:
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;If there is a sentence inside a sentence, there can be quotation marks grabbed by the outer quotation marks. Normally I use double quotation marks(“ ”) outside and single inside(‘ ’). And then I see if the quotation marks are from the same font family, of the same style. Then, I correct the distance between the quotation mark and the letter, and between the other punctuation marks (if there are any).
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Maybe I should give an example of typesetting in InDesign, according to my habit. When it comes to books, I mainly edit in InDesign. I start with choosing a template. At this moment I start to consider the pages(size, dimension), arrangement of the page (facing, or not), margins, columns (though I rarely set any from this stage), bleed and slugs (which I mostly ignore). After the document is created, I drop the text there, just to have an overview of the amount of text, and of how the volume of the document reacts to the amount of text. I firstly like to choose a font and a font size for the body text (main text) and then change the setting for the leading and tracking. I always like to change them because I do not like the default settings. I think I learnt a habit in first semester of my second year in art school, that I always like to have a slightly smaller leading and a bigger tracking than the default. After this, I go to paragraph style to modify the justification, keep option and such. At the same time I pay attention to the master. I normally have a master for the body text, a master for the title page, a master for the table of contents, and so on.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;I rarely make posters in InDesign but I find it super worth doing, especially when you need to pay close attention to the typesetting going on in the poster. Once you start to notice them, any flaw triggers your nerve. The most important thing in this case is the kerning. It means that you need to take control of the space between letters and punctuation marks. Some letters have less volume than others; some punctuation marks needs to be better positioned in relation to its neighbour letters… In these cases, you don't trust the default kerning and need to do it manually.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;I sometimes miss writing in the “farming box”. It is such a different grid system than anything that I am using right now. I came to realise that it is the very first, and most primary and fundamental structure in my typography playground. I have a stronger attachment to it. In fact I have a very deep, effable and almost mystical feeling on Chinese characters — I remember how I learnt the writing and where I pay attention to, in EVERY character. There are stories in every corner between the strokes, and I can hear how they sound when I look at them. For me, every single character is a singing creature, both visually and acoustically fascinating. Without being in all kinds of grid system, I would not have discovered this much affection to the farming box and Chinese characters.
+          <br /><br /><br /><br />
+        </div>
+        <div id="txsonia" style="display:none">
+          <br /><br /><br /><br />
+          <br />☝️the letters can scream, the words can scream
+          <br />☝️typography is hybrid - when treated in a certain way, it can reveal a different side of it’s personality
+          <br />☝️leaving one word on a line looks irresponsible
+          <br />☝️there is a handy setting in Indesign called ‘Story’ to optically adjust margin alignment
+          <br />☝️margins that will be cut after printing are tricky, therefore, it’s always better to give a few more mm to the margins that you think will work
+          <br />☝️the question ‘do I, as a designer,  want to be seen in typesetting?’ can make things clear when it comes to start building layout
+          <br />☝️kerning is a fine, sophisticated detail that should always be considered
+          <br />☝️it’s either an indent on the first line or a space between paragraphs to point out the paragraph division
+          <br />☝️the first line of the first paragraphs on the page should not be indented
+          <br />☝️working with micro typography requires printing the spreads out, this is the only way to assess and progress further
+          <br />☝️the hyphen, en- dash and em- dash has specific uses:
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;the C: 1. in double - words
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;the en- dash: 1. between dates and numbers,
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;the em- dash: 1. for a stronger break in the sentence, 2. for separate a 			shorter sentence within a longe sentence, 3. in cases then a comma isn’t  strong enough as a separation element, 4. is a two-word space
+          <br />☝️don’t leave a one-letter-word as the last one in a line
+          <br />☝️putting together many different typefaces requires a lot of consideration & attention
+          <br />☝️typography that will be a printed form in the end always needs to be checked & proofed printed, so not on the screen
+          <br />☝️typography in a book / brochure / catalogue and similar formats should be judged in relation to the margins
+          <br />☝️colon is a text should not be touching the baseline of the text, is should be in the middle of the word it’s standing after
+          <br />☝️dashes / hyphens should is the middle of the words, while by default it is closer to the baseline of the text
+          <br />☝️possibly, typography can be treated to be read as an image
+          <br />☝️typography with center alignment is tricky, as it can look too decorative
+          <br />☝️typographic layout can sometimes appear to look more loose in a printed version compared to how it looked on a screen, therefore the screen optically condenses the layout
+          <br /><br /><br /><br />
+        </div>
+        <div id="txralph" style="display:none">
+          <br /><br /><br /><br />
+          Before starting, be sure what kind of hierarchy you have in the text. Always be aware of the possibilities of the type you choose how big are the possibilities in the font. Do you need different weights? Do you need Latin and acrylic in one typeface? Those are all different kinds of obstacles you can tackle quick before you start with actual typesetting.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;keep in mind what is the purpose of use type, do you use it for print or digital (when it is for printing, test this).
+          <br /><br /><span id="listing">Whitespace</span>
+          <br />White space around the letter is important. How many words fit on one line. The legibility of the shapes is important.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;The top half of a letter is more important, most people can recognize a letter from only the top.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Readability is Content, Legibility is Shape
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Create flexible margins. A grid system is to help you with typesetting but don't let it be the boss of your design. Sometimes it is important to break the grid.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Everything is interconnected.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Never let the grid be your boss. You're THE designer.
+          <br /><br /><span id="listing">Paper</span>
+          <br />Choose your papers well. To know how the text will behave 'physically'. You have to know what kind of paper you using. How react the ink on paper, what is the feeling of the paper?
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Example: small type with glossy paper has a less good relationship than if you use big type.
+          <br /><br /><span id="listing">Printing technique</span>
+          <br />Same as the paper is the way how you gonna print something very important, keep that in mind. Make test prints, what is the ink doing on the paper.
+          <br /><br /><span id="listing">Indesign</span>
+          <br />Indesign is a nice program to use when you're doing typesetting. You can add paragraph styles, characters style. You can even automate everything with GREP and many more.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;But still, you are the designer and be alert on the 'wrong' thing that happens inside the text. Always adjust if there's a good reason you want to change it.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Paragraph-style tip: *Justification: 75 - 85 - 90*
+          <br /><br /><span id="listing">Special Characters Glyphs</span>
+          <br />Page numbers are important if you want to navigate your reader through the publication. The page number is an example of special characters. SC are characters with a particular ability.
+          <br /><br /><span id="listing">Hyphenate em en dash</span>
+          <br />hyphens (-)
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Use hyphen when you break a word of line.
+          <br />hyphens (-)en dash(–)
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Use this for time periods.
+          <br />em dash(—)
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Use this as a punctuation symbol in a sentence.
+          <br /><br /><br /><br />
+        </div>
+        <div id="txkristiana" style="display:none">
+          <br /><br /><br /><br />
+          <span id="listing">Layout</span>
+          <br />☝️Page numbers make sense if they are not put on the inside of the pages where the binding starts, so that people browse through the book they can easily navigate themselves.
+          <br />☝️Page numbers don’t have to be huge, they should support the content not to draw attention away from it.
+          <br />☝️Always calculate more margin where the spine will be and test print it – it always  takes up extra space and the text is often too close to the spine.
+          <br />☝️When using numbers and years in flowing text, it can look better with Character > Open Type > Tabular Old style, as well as/or set in Small Caps, as it merges with the text way better (depends on a font, but with rich well-made fonts this is often the case).
+          <br />☝️People say serif typefaces are easier to read than sans serif typefaces, but Frank Blokland says it is not a rule and can be also otherwise.
+          <br />☝️You have to know the history and author behind the typeface you use Frank Blokland says, because if you as a graphic designer don’t know it – who will?
+          <br />☝️A layout should be consistent in structure and hierarchy.
+          <br />☝️Leading increases when text size gets smaller and it decreases when type size gets bigger.
+          <br />☝️Sometimes you have to kern space manually between numbers in a text or a bigger title, as there is often more space around numbers 1,2,5,7, as well as more space around letters such as V, W, A, T, and others.
+          <br />☝️Use the correct glyphs from glyph panel when you have to use “ x “ (math sign, not the letter x), “...” (specific symbol for three dots), “–” (dash, En dash, Em dash), etc.
+          <br />☝️Justified text can work in a case where you pay attention to the space between letters and words. You should edit this in Paragraph > Justification, so the spaces are not too big and it is still easily readable.
+          <br />☝️If in the parentheses there are another parenthesis, like “(Gordon, (1998))”, in the case of double parentheses you switch the inner ones to square brackets, like “(Gordon, [1998]), Frank Blokland says.
+          <br />☝️Don’t place elements too close to the border of a page if you don’t want them to be cut off.
+          <br />☝️Dash (-)  is used when hyphenating or splitting words, or in joining surnames.
+          <br />☝️En dash (–) is used in the case of “from – until”, years and so on.
+          <br />☝️Em dash (––) is used in the text to separate different parts of a sentence.
+          <br />☝️8-12 words in one line is considered best for optimal reading.
+          <br />☝️For text spacing in Indesign use Metrics, not Optical. Metrics is what the font designer has intended. Optics might get useful in specific cases, when you need to kern in between two seperate fonts for example, which is usually not possible.
+          <br /><br /><span id="listing">Fonts and Lettering</span>
+          <br />☝️When writing, the stem that goes down is naturally heavier than the stem that goes up (“M”, “N”, “W” etc.). This contrast is applicable when making a digital font as well.
+          <br />☝️ &nbspWhen making a font, most letters consist of the same parts, therefore are consistent in a group, with the same thicknesses and thins.
+          <br />☝️ &nbspWhen making a font, in a text setting the appearance of the letters should be consistent, none of the letters should stand out apart from others all by itself. Even in these cases where it is intended – there should always be a consistent pattern when reading a text that is set in this font.
+          <br /><br /><br /><br />
+        </div>
+        <div id="txada" style="display:none">
+          <br /><br /><br /><br />
+          <br />☝️figure out word spacing in capitals by trying to set the space between H and I, so that second stem of H and I are in the same distance as stems of H
+          <br />☝️running headers are traditionally in small caps, not all caps (in order to balance out the contrast of the text)
+          <br />☝️the text block shouldn’t be too wide, as it makes reading more difficult
+          <br />☝️you should leave more space at the bottom of the page than at the top
+          <br />☝️first paragraph of a new chapter/text/part of the book shouldn’t be indented, as it’s already obvious that it is a new part - we indent from second paragraph onwards
+          <br />☝️reading is facilitated in general by serif typefaces in print and sans serif typefaces in a digital form
+          <br />☝️never trust the default settings of the typeface you’re using (especially line spacing)
+          <br />☝️never hyphenate the last word
+          <br />☝️be careful with justification, it can destroy word spacing
+          <br />☝️using old style figures (tabular or proportional) makes them fit the contrast of the text better than lining figures
+          <br />☝️most typefaces require changing their word spacing values (roughly min 75%, desired 85%, max 90%)
+          <br />☝️use document and baseline grids
+          <br /><br />8.11.19
+          <br />☝️check what kind of open type feature typeface has BEFORE deciding to use it
+          <br />☝️use not more than 14 words in a line
+          <br />☝️some pages have to be boring so that others can shine, don’t be afraid to have a bit calmer spread
+          <br />☝️break a text sometimes with a bigger, distinguished quote in a different weight or size
+          <br />☝️always check if there is no double spacing, spaces before dots etc
+          <br /><br />15.11.19
+          <br />☝️if you put an image with column with a text, make it a bit smaller than the column width, it will appear more natural
+          <br />☝️best set your baseline grid to increment at every same amount of points as the leading of your typeface indicates
+          <br />☝️it is smart to limit the amount of typefaces used in a publication, usually 2 or 3 work best, but if you can make it work, go wild with the amounts
+          <br />☝️you can position both running headers and page numbering wherever you want, as long as it feels harmonious on the page
+          <br />☝️dont design pages, design spreads
+          remember that the right page of the spread is the one reader looks at first usually
+          <br /><br /><br /><br />
+        </div>
+        <div id="txerica" style="display:none">
+          <br /><br /><br /><br />
+          <br />☝️typography is related to language system, reading habit
+          <br />☝️always read before design
+          <br />☝️typography is a combination of writing and speech
+          <br />☝️typography is a method to let readers get information structure  in the shortest possible time through position the text
+          <br />☝️typesetting is a relationship more than a design style, is the relationship between text and white space on the sheet
+          <br />☝️typography creating rules of items (language & pictures), various information loops within the page
+          <br /><br /><span id="listing">Text</span>
+          <br />☝️the width of column will affect legibility of text
+          <br />☝️pay attention to the location of punctuation, In the computer default settings, most of the punctuation marks are close to the left word, sometimes it’s worthy to adjust it to achieve a more harmonious layout
+          <br />☝️typeface has it own personality and history
+          <br />☝️x-high determine the visual size of the font
+          <br />☝️11pt to 8pt is suitable for reading font size
+          <br />☝️kerning and line space for smaller font should be enlarged
+          <br />☝️grid based on font size, font size determine line space
+          <br />☝️the right page is the strong page in a double page publication
+          <br />☝️the visual centre will be higher than the physical centre
+          <br /><br /><span id="listing">Image and  Text</span>
+          <br />☝️control the order relationship between images and text could help readers make a better understand
+          <br />☝️the visual centre will be higher than the physical centre
+          <br />☝️pictures showing the real things , possibly to following the real size order of objects is an intimation of content
+          <br /><br /><span id="listing">Chinese and  English </span>
+          <br />☝️Chinese is an ideographic language system, Chinese characters’ structure is based on the square grid, every single Chinese character could be seen as a grey shadow
+          <br />☝️traditional Chinese typesetting is a vertical version, in order to adapt to the mixed typesetting of Chinese and English created a horizontal layout
+          <br />☝️the structure of  Chinese character is stable, however there is more rhythm in English letters
+          <br /><br /><br /><br />
+        </div>
+        <div id="txfabiola" style="display:none">
+          <br /><br /><br /><br />
+          <br />☝️Page numbers are better on the top of the page
+          <br />☝️Titles are bigger than sub titles
+          <br />☝️In a paragraph use indents or enters not both, you don't need both because they have the same function
+          <br />☝️When working on your publication look at the margin, have more on the bottom than on the top and more margin on the inside than on the outside
+          <br />☝️Big blocks of justified text are more difficult to read
+          <br />☝️Make space for your thumb to hold the book, so you don't cover the text
+          <br />☝️Justified text usual causes rivers in your text, but if you do do justified text try to work with spacing wit the words and words that you can break. But also look at that you don't break to many words because it can be annoying to read
+          <br />☝️You don’t want a ragged edge in your text
+          <br />☝️Make sure that you look at line spacing. It can be difficult to read if there is not enough line spacing or it can just look like one black block of text.
+          <br />☝️Make sure you don't get an orphan or a widow in your text. To fix an orphan or a widow in your text, try to rewrite the text because adjusting word spacing and column widths changes the consistency of your page layout text
+          <br />☝️Don't have too many words on one line
+          <br />☝️When designing your book take in account the way you want to bind it, maybe you will need more margin to make it look good when it is bound
+          <br />☝️Don't have less then 5 words on a line
+          <br />☝️When considering sizes, we have to remember the effect a font has. There are fonts which are identical both in terms of body height (fonts set in 12 pt) and actually measurable letter size. They appear different in size and their legibility varies especially in small point sizes.
+          <br />☝️Large page numbers distract from the content
+          <br />☝️We use the em dash to create a strong break in the structure of a sentence. Dashes can be used in pairs like parentheses—that is, to enclose a word, or a phrase, or a clause (as we’ve done here)—or they can be used alone to detach one end of a sentence from the main body.
+          <br />☝️When using the hyphen, the en dash, or the em dash, most style books advocate putting space neither before nor after them. One exception is, of course, when the hyphen is used as a minus sign. The other exception is with a hanging hyphen (see, for example, the word “nineteenth” in the phrase “nineteenth- and twentieth-century literature”). By definition, a hanging hyphen will have a space after it but not before it.
+          <br />☝️Point size not smaller then 7 points
+          <br />☝️When you want to bind you book you have to give your book more margin on the inside
+          <br />☝️use kerning if necessary
+          <br />☝️Don't use too many fonts in one publication 2/3 max
+          <br />☝️Work with a grid
+          <br /><br /><br /><br />
+        </div>
+        <div id="txagata" style="display:none">
+          <br /><br /><br /><br />
+          <span id="listing">What do I know:</span>
+          <br />☝️monospace is nice because it’s easy to typeset and you can have no hyphenation
+          <br />☝️you should not hyphen names (first + last name) and same principle names of things, institutions
+          <br />☝️English is weird because you do not indent the first paragraph
+          <br />☝️you would rather have your lines too loosely than to tightly set
+          <br />☝️contrast balance on the page is important
+          <br />☝️negative space is very important
+          <br />☝️page numbers do not have to go in traditional places
+          <br />☝️more than 3 typefaces are madness and you need a very good reason for it
+          <br />☝️when printing inkjet your typeface looks different than with laser, riso, and offset so remember about it
+          <br />☝️give people enlarging glass if you typeset smaller than 6 pt
+          <br />☝️your inside margins can be smaller if you bind the book so that it opens well (ota)
+          <br />☝️if your book is meant to be read not lay down on a table think about the fact that people will hold their thumbs on your margins
+          <br />☝️there’s a difference between a dash, en dash, and em dash which you can always google but remember they’re almost always too low
+          <br />☝️text set vertically or a paragraph set vertically look nice and we all like them but they don’t always work in practical terms
+          <br />☝️equal justification sucks
+          <br />☝️“rivers” suck even more
+          <br />☝️you can change kerning in the sentence that is “sticking out” of a paragraph but just slightly (no more than 8 in the indesign scale), no one will notice
+          <br />☝️always make your margins slightly bigger than you thought at first, you’ll be cutting them yourself - they’ll be gone anyways
+          <br />☝️chose typefaces in relation to each other, never pick one that doesn’t work with others… even if you love it
+          <br />☝️if you feel like your book is boring just add running headers and fill in the margins
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;>>>>>>>>>>>>>
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;>>>>>>>>>>>
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;>>>>>>>>>>>>
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;>>>>>>>>>>
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;>>>>>>>>>>>>
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;☝️This is what you want.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;>>>>>>>>
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;>>>>>>>>>>>>>>>
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;>>>
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;>>>>>>>>>>>>>>
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;>>>>>>>>>>>>>
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;>>>>>>>>>>>>>>>>>>>>
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;☝️This is what you don’t want.
+          <br />☝️you should never have orphans and widows, just stick smth to them
+          <br />☝️don’t leave short words like “all, but, and…” at the end of a line
+          <br />☝️Dutch is weird and you are allowed to leave short, weird words at the end of the line
+          <br />☝️you do not want more than two hyphens a paragraph (standard length)
+          <br />☝️think about your column being too narrow or too wide, and just don’t do this to yourself
+          <br />☝️always see if old-style numbers don’t work better within the text
+          <br />☝️ligatures are cool
+          <br />☝️small-caps might save your life one day
+          <br />☝️you should be committed to the system of arranging the information that you choose
+          <br />☝️if typeface doesn’t have small caps tr making them - it’s fun
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- Aaaaaa, aaa aaaaaa aaaa?
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- Bbbbbbbbbbbb
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;☝️– description of the situation/character.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;– Bbb bbbb… bbbbbbbbbb bbbb…
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;☝️Description of what’s happening.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- Aaaa aaaaaa… aaaaaaaaaa…
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;☝️Description of what’s happening.
+          <br />☝️Might look better than the classical English dialogue typesetting.
+          <br />☝️remember when to use which dash (-, en, em)
+          <br />☝️when to use a hyphen: to divide words between the end of one line and the beginning of the next and “not-so-poorly-produced” and phone numbers
+          <br />☝️when using quotation marks whatever punctuations is there is goes BEHIND the quotation marks: “a”?, “a”, “a”!, “a”.
+          <br /><br /><br /><br />
+        </div>
+        <div id="txdaniela" style="display:none">
+          <br /><br /><br /><br />
+          <br />☝️Margins exist - how big is optimal? - just so you can read the text after cutting and binding
+          <br />☝️Most readable column sizes are 40-80 characters per line.
+          <br />☝️There are two ways to position this: the english based way and this : the french way.
+          <br />☝️Old style figures (46) blend in better with running text while tabular figures work good on their own. -541986427
+          <br />☝️Small caps blend in better with running text, and are spaced to work with each over, regular capital are made (spaced and designed) to work with minuscules after them.
+          <br />☝️Indenting a new paragraph comes from the origin of printing to symbolize hierarchy and distinguish big chunks of text with limited “waste” of space. With digitalization space becomes less of a resource and paragraphs are signified with a blank line, other time the two systems migrate between screen and paper.
+          <br />☝️Usually the bigger the text length the more formal (normal) the chosen typeface, whilst small texts(titles, names, etc) get more extravagant type
+          <br />☝️Some classic combination of typefaces is a serif and sans serif but that is very broad, it is important to match the “blackness” of typefaces, either so they are different enough or so that they match well. If they are supposed to work together and be the same you need to look at x height not point size.
+          <br />☝️Full justification is difficult. Usually makes ugly spaces. Needs a lot of hyphenation and/or a small size. Also adding 1% of type size adjustment into the algorithm can help, also apparently better results are with min 70%, norm 80%, max 90% alteration of space(?)
+          <br />☝️For some reason designers hate hyphenation. Avoid it
+          <br />☝️Monospace is a babe, even though individual letters like m and i can look weird, the block of text together looks balanced because of the rhythm. Doesn’t need justification or hyphenation its just great.
+          <br />☝️High contrast typefaces don’t work well in small sizes, and hurt to read a long time on screen.
+          <br />☝️The space in between letters is ideally a little smaller than the space inside.
+          <br />☝️Adding footnotes, running headers adds a bit more justified dazzle to the page, but you need to defend/give reasons for doing so, because minimalism is an ingrained norm of the industry, even though it did start as way to keep the moral high ground of industrialized countries.
+          <br />☝️There are characters like x and × they are different
+          <br />☝️Mostly () needs to be adjusted to the base line
+          <br />☝️Numbers around 1 need to be kerned usually
+          <br />☝️Some choose their grid by the point sive of the main text, some use increments divisible by 5 so that there s a big variety of usage
+          <br />☝️There is are 3 types of dashes: hyphen (-) (the one we have mixed feelings about),  en dash (–), and em dash (—). The shorter the dash the more related the elements. So hyphens separate one word across lines, or a compound word (two-thirds, well-being, etc). En dash signifies ranges May–September, and often used in indexes and citations (pg 147–48). Em dashes can be used like parentheses, or to give the reader a distance to process what has been said— like so. They also substitute/cue “missing” text, like unfinished/ interrupted sen— moving on.
+          <br />☝️To write an em dash on some software writing two hyphens without space in between will convert to— an em dash. But holding down Alt and typing 0150 will give you an em dash.
+          <br />☝️The goal of typesetting, as far as i understand, is to have an evenly distributed, balanced amount of black and white space, neatly nested in a box with crisp edges.
+          <br />☝️There are there things called Orphans - when there is only one word in a line at the end of a paragraph. Avoid it. Maybe change the tracking to be lower for that paragraph, add a hyphen, idk (hyphen>orphan)
+          <br />☝️Widow now is a line of a paragraph separated from it because of column change, very bad. A widow orphan will get you expelled.
+          <br />☝️Important to mention widows are big deal when you separate paragraphs by a blank line, not so terrible(still bad) when using indents.
+          <br />☝️Page numbers can be a nice source of bedazzle - do not forget their ultimate function - to guide the reader on where they are - if your text does not explicitly need numbers then playing around with the concept can be very interesting.
+          <br />☝️If you have very sharp graphic elements like lines - running next or in between your columns of text, justification might be good, or pay attention to how the unjustified side interacts with it (might be chaotic)
+          <br />☝️Italics used to be their own script, then it became a way of highlighting important words, now it is often used with writing that is emotional or  human(poetry)
+          <br />☝️When using blackletter a common way to highlight a word was to set it with a very wide tracking. Don’t do that tho
+          <br /><br /><br /><br />
+        </div>
+        <div id="txkilia" style="display:none">
+          <br /><br /><br /><br />
+          <br />☝️The typography has to be the right one for the right paper color. If the typeface has high contrast, the thin lines might look too thin or even invisible on a white paper.
+          <br />☝️It’s better bigger spacing between lines than too little. Bigger spacing doesn’t tire your vision too much.
+          <br />☝️When adding the page number think about practicality. When you flip through the pages is handier to have the numbers on the opposite side than the spine.
+          <br />☝️It’s not about the conceptual design of the layout; it’s about practical matters and logic.
+          <br />☝️Be clear with your intentions when designing a book. If it’s a novel, it’s made for readers that are going to spend long time reading so the design should be clean and pleasant.
+          <br />☝️Don’t finish a page with a widow nor start a page with an orphan.
+          <br />☝️The text box shouldn’t be too close to the edge of the page nor the spine.
+          <br />☝️If you want to have a name in subtle capital letters that don’t stand out too much from the text you should choose a typeface that has small caps.
+          <br />☝️If you type a word composed by two words, use the “n dash”.
+          <br />☝️Know in advance what you want to do with hyphenation. You can decide to not hyphenate at all but if you do make sure your words hyphenate correctly.
+          <br />☝️A navigation system is important.
+          <br />☝️Have previous knowledge of the typeface you’re going to use and what was it design for in the first place. Some typefaces might look great but were not design for small texts.
+          <br />☝️Justification is 70%, 85%, 90%.
+          <br />☝️Don’t hyphenate a word after two letters.
+          <br />☝️If you don’t hyphenate words, make sure the text has a regular shape.
+          <br />☝️In the text, if a new paragraph starts, you either make sure there’s a line in between the previous paragraph and the new one. If you don’t want an empty line in between, start the paragraph with an indent.
+          <br /><br /><br /><br />
+        </div>
+        <div id="txadriana" style="display:none">
+          <br /><br /><br /><br />
+          <br />☝️For setting up a document, I see what paper size would make most sense for the content
+          <br />☝️Deciding the paper size, I like to look at actual physical paper
+          <br />☝️Otherwise, I use books I bought as example
+          <br />☝️Can create different paragraph styles set them on text. Makes editing overall text easier.
+          <br />☝️Can import text documents into indesign
+          <br />☝️Text boxes that connect to one another, making the text flow from one to another
+          <br />☝️Character styles to more in detail design text
+          <br />☝️Page masters to decide the page layout. All that is set in the master pages will appear in all document pages. Can make multiple masters
+          <br />☝️By right clicking on a page, you can override the master and change elements
+          <br />☝️Document grids to help design the layout of the book/text
+          <br />☝️Margins are set depending on how thick the book will be along other influencing factors (eg: if the book is very thick/has a lot of pages, then you should leave an inside margin that is bigger to ensure you won’t cut off the text)
+          <br />☝️When using a typeface, you should normally respect the specifications of it (tracking, leading, kerning, scaling,...) because it has been set specifically in such a way. However, depending on what you use a typeface for or how you align the text, you might have to play with some of these elements (leading, kerning).
+          <br />☝️Depending on the occasion, small caps look better than having a text in full caps
+          <br />☝️Using small caps you should space them out a little (in the tracking). They’ll look more grounded and overall just...nice.
+          <br />☝️To match typefaces, a good starting point is that they have the same x height.
+          <br />☝️Opentype feature in typefaces has added factors to the type. The more opentype features it has, the more complete the typeface is. These are more advisable to use for body texts.
+          <br />☝️You can use indesign to set text into tables or columns, etc. Or you can create the boxes yourself to set that text in there
+          <br />☝️Kerning is the space between one character and another
+          <br />☝️Leading is the space between one line of text and another
+          <br />☝️Scaling is the proportions of the type characters themselves
+          <br />☝️Orphans and widows can be fixed in the paragraph style. Other times you should just move should leave room for an extra line at the bottom of your text boxes, to make the box slightly bigger and avoid a sentence running off to the next page, for example.
+          <br /><br /><br /><br />
+        </div>
+        <div id="txocean" style="display:none">
+          <br /><br /><br /><br />
+          <span id="listing">BOOKS</span>
+          <br />☝️If you are typesetting a block of text, for good readability the sentences should be between 60 and 70 characters, if there are too many characters on one line it is very tiring to read a story, same goes for too little, you can’t focus properly.
+          <br />☝️Bigger pieces of text should be typeset in lowercase with capitals where they should be, if you set a text only in capitals it will be harder to read, this is because lowercase has a rhythm in heights and uppercase is the same height, we don’t read texts character by character, this is because we read by looking at the shapes and our brain translates the shapes into words.
+          <br />☝️You should avoid setting longer pieces of text in italic, because it is harder to read, due to the letters having jagged lines, compared to non-italic fonts.
+          <br />☝️Horizontal text is the most easy to read, if you want to turn text for instance 90 degrees you should turn it to the right, let the text be read from top to bottom, otherwise it's harder to read.
+          <br />☝️To keep the reader's attention, you can use line breaks or indents to make the text easier to digest.
+          <br />☝️To make a text more easy to digest, especially for longer text you don’t want the line height to be too small, but also not too big so there are big gaps between lines of text. If you space it too tight or too big, it's not easy for the reader to read lines after lines, since he the reader has to jump from the end of one sentence to the next sentence.
+          <br />☝️If you make use of page numbers, they should not distract the reader from reading.
+          <br />☝️Smaller point-size then 8 pt can quickly become unreadable if you want to set a text for reading, also bigger than 16/18pts can becomes harder to read(for bigger chunks of texts).
+          <br />☝️If you make use of the golden ratio in your lay-out and typesetting, almost nothing can go wrong(except details maybe).
+          <br />☝️If you make use of multiple columns, you don’t want them to be too close to each other. Otherwise it looks like a sentence in one column continues in the next column. /// make sure they have enough white space between them, otherwise you can create one big block of confusing text, instead of two separate.
+          <br />☝️The use of italics can give your text extra life, for example quotes can be set in italics, or highlights in the text. Don’t overuse italics. If you want to highlight something only italics can be enough, if you make it bolder AND italic it's too distracting.
+          <br />☝️In the west we are accustomed to roman typefaces, to set a long text in a blackletter can be experienced as hard to read. A complete book with lots of text to be set in a sans serif typeface can also be experienced as more exhausting to read, while still being far more easier then a text set in a blackletter.
+          <br />☝️Title chapters work better if they are set in a bigger or heavier weight then your running main text is.
+          <br />☝️For a better readability of a text you sometimes have to adjust to tracking, decrease it to give the text a bit more air, but don’t let the letters fly away or increase it so it becomes more compact, also not too much so they won’t stick together. This should always benefit the text.
+          <br />☝️You don’t want to end a sentence with the last word on a new line, this creates unnecessary white space and disrupts the rhythm of your text which can be experienced as annoying or ugly. Also you don’t want to have a ‘I’ at the end of your sentence, put it to the next line.
+          <br />☝️If you have multiple columns make sure the lines of text of the columns are at the same height, this can creates a cleaner look.
+          <br />☝️If you set text in a bigger size, usually you can decrease the letter spacing, because when you enlarge type, the whitespaces in-between also enlarge and can go out of proportion.
+          <br />☝️If you are working with a title or subtitle text, you don’t want to make use of hyphens and so break the words, because this can start to look messy.
+          <br />☝️You don’t break people their names with hyphens if the name is at the end of the sentence, you do a soft or hard enter or you fix the tracking so if fits on the same line and doesn’t break.
+          <br />☝️If you set a long text for reading it’s better to use alternative characters(old style) for your numbers, because numbers are usually the size and blackness of capitals, so change them to a smaller style, which accompanies your lowercase size.
+          <br />☝️On hyphens, en-dashes and em-dashes:
+          <br />☝️Use hyphens(shortest) for line breaks and making compounds, such as well-being and separate numbers which are not telephone or Social security numbers. En-dashes(slightly longer than the hyphen(width of the letter N)) it means ‘through’ use it for dates. Em-dashes(longest (width of the letter M)) for breaking up sentences.
+          <br />☝️If you are doing a non-justified text, watch your ragging, you don’t want to create big gaps at one side of your text block, make sure you adjust your hyphenation fitted to the length of your lines, I usually don’t want to break small words, but only break words of 7 characters or higher in text boxes containing less than 40 characters can create very big gaps.
+          <br />☝️When dealing with fully justified texts it can make a huge difference to hyphen small words, also to not put your max and minimal tracking too much of a difference in numbers, otherwise you will get some words which are spaced super tight while others have way too much space in-between them.
+          <br />☝️Use as few typefaces as necessary, because it gets messy when you use too many.
+          <br /><span id="listing">POSTERS</span>
+          <br />☝️With posters you can disregard a lot of rules more easier then if you are typesetting text for books. But to make a clean poster
+          <br />☝️If you set up a grid for making a poster you usually can make your poster a lot cleaner, because you can be more precise with placement etc.
+          <br />☝️Usually for posters capitals work better then lowercase, because a word in capitals ‘screams’ and that is what you want with a poster, you want to attract people to come read or look what you poster is about.
+          <br />☝️A typesetting rule for posters to make a poster interesting is the use of different sizes, for example make the name the biggest and other information gradually smaller as connected to what is most important.
+          <br />☝️If you set a sentence or title only in capitals, you usually have to increase the tracking, because the capitals are accustomed to the lowercase, having more whitespace at the sides.
+          <br />☝️Quite often when you type set something, for instance a title or bigger text, you have to adjust it with some kerning, a lot of times combinations with letters as AWPU, because they have quite some whitespace around the letter and together they create bigger gaps in the type, which results in a break of the rhythm of the title.
+          <br /><br /><br /><br />
+        </div>
+        <div id="txmalik" style="display:none">
+          <br /><br /><br /><br />
+          <br />☝️margins always bigger on the inside than on the edge because of binding
+          <br />☝️between 40 and 60 characters per line for a better readability
+          <br />☝️establish a grid
+          <br />☝️if text is in a flag, no hyphenation
+          <br />☝️if text is justified, hyphenation of words of 7+characters
+          <br />☝️justifications settings
+          <br />☝️word spacing: 80; 100; 120
+          <br />☝️letter spacing : -6; 0; 20
+          <br />☝️for something "classical" dont use more than 2 (max3) different fonts in one work
+          <br />☝️no lonely words at the end or at the begining of a page (widow and orphan)
+          <br />☝️table of content and navigations type are optional if you dont have the content for it
+          <br />☝️set up paragraph styles and character styles for easier change later in the process
+          <br />☝️type under 7 is too small
+          <br />☝️in hierarchy either use different sizes OR different weight but both are overload
+          <br /><br /><br /><br />
+        </div>
+        <div id="txeunji" style="display:none">
+          <br /><br /><br /><br />
+          <br />☝️You should use an en-dash when writing the range of time/dates.
+          <br />☝️The leading shouldn’t be too wide nor too narrow for the legibility.
+          <br />☝️No orphan.
+          <br />☝️No widow.
+          <br />☝️Don’t make a river through the text.
+          <br />☝️You should kern the space between 1 and other numbers if it’s too wide.
+          <br />☝️You should read the text before you typeset.
+          <br />☝️Better left-aligned than right-aligned.
+          <br />☝️Avoid having too many hyphenations.
+          <br />☝️You can change the font weight to either bold or thin to highlight words.
+          <br />☝️You can also use different typeface to highlight words.
+          <br />☝️More margins on the bottom than on top.
+          <br />☝️Give 3-5 mm of bleed when putting full page pictures.
+          <br />☝️When double capital Ts are connected, you have to manually kern them.
+          <br />☝️When kerning, you have to consider the counter space around letters.
+          <br />☝️Normally line lengths for body text are between 40 to 60 characters.
+          <br /><br /><br /><br />
+        </div>
+        <div id="txtereza" style="display:none">
+          <br /><br /><br /><br />
+          <br />Typography is something that surrounds us in everyday life. It exists to make us understand the world around us and it makes possible to communicate on the level without talking or hearing the language. Typography exists for centuries however first moveable type was invented by Gutenberg in a fifteen century in Germany. This time meant the big turn from black letter and handwriting. Following decades after typographers design the first typefaces, this was mostly happening in France and Italy. From that time typographers would use just the serif typefaces till the end of the 19 century when was invented the first sans serif. So we have serif, sans serif, monospaced typefaces or we can also use handwriting or calligraphy. At 40s Swiss design took completely over and set the level up. Unfortunately, I don't know so much about type history from other continents.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;There are certain rules to be applied to achieve a good design layout. Such as following the grid, but not letting yourself get so limited by that, always remember that you are the one who controls the grid. The grid can divide a page into sections through vertical and horizontal lines. This repetition helps us as designers but also the audience orient on the page. But before the grid, there was one more rule which was and probably is followed the most. The golden cannon, the rule which is supposed to be a perfect solution that comes from nature. In our culture, we read from the top/left to bottom/right. There are a few different ways how to work with the text, we can align the paragraph to left or right or center it in the middle, we can justify, hyphenate, change spacing, kerning, leading, etc. If we don't adjust those few things we can not get the right regular spacing between letters, words, lines or paragraphs.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;In order to understand each other more, we follow learned layouts for certain/official documents from letters, emails, documents to cheques or whatever else. But as involving society we try to break those rules and create new trends and replace the old ones. The good typographers often create a small hidden joke within the design which is probably often understood by only a few people. In general, it's better to use more columns or different typefaces to navigate the reader better especially in the case of footnotes and other running text. Nowadays we are used to put the footnotes on the current page of the reference because people are becoming lazier, so many of them would not read them then. When we want to put some extra attention to specific parts or highlight some text we can use the bold, italic, underline, chose a different contrasting typeface, etc, The title is supposed to be outspoken and somehow put a label to our edited text. It usually has more white space around or in other words, it's treated differently. Then we use the page number, again to navigate ourselves better through the publication. It can be placed at different places of the page, usually behind the margin to separate it from the main text. The ideal place is on the edge side of the paper instead of inside in order to avoid the possible problems with different bindings. Usually, people are used to seeing it down on the page. We are used to use margins first at all to avoid problems during the printing, second at all to create a space to put the finger on the page during the reading or give some space to the reader to breathe during the reading. The page numbers are not after used to be special they are not supposed to create so much attention, if yes its a design choice. Then the margins also depend on binding, we can have the same distance on both sides but with specific binding, it can look like half a space. The binding also influences how the book is read, can be comfortable and offer us to open the publication fully or the opposite. Everything has its own rules but those can be always adjusted, depending on the intention of the designer, on the reason how we want to present the text. Therefore the balance of the text and the white space and the combination is important for creating the functioning layout.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;For better continuity in reading we create/follow paragraph rules, for example putting a gutter at the beginning of the paragraph, but careful not the first paragraph of the chapter/text. There are few typographic things that we can not let happen in the text, as a leaving one world on the last line of the paragraph or leaving one running the last line of the paragraph at the beginning of the page. Editing the text by itself is dependent on the language, in English we don’t want to have verbs, which are connected with other words, at the end of the line. There are also few rules for specific characters like we use two types of the dash - em, and en. En dash is longer than the hyphen, but em dash is even longer, in fact, those dashes are dependent on the width of letter M and N. En dash is used in numbers and dates, or to clarify the adjectives, therefore the em dash is used to separate phrases or the word. If we hyphenate we can apply the function to move all of the dashes a bit outside of the paragraph box, for the better optical look. Instead of using three dots behind each other we should use a special character for three dots. We usually don't put dots behind the page numbers or titles or short sentences. When designing the content is very important to be outspoken and not confusing, personally I find the dots between the chapters and pages too much. The size of the typography of content should have the same size as the main text, only if it's not the intention. If we design the flyer or poster we always want to achieve some contrast in type and use two sizes, preferably gold ration composition. On the other hand, if we design a book cover, we try to not make so many differences and preferably centered compositions.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;As we edit the paragraph, we should also have a closer look at kerning. Kerning is editing of the white space between the words, controlling it, regulating the balance. We apply the kerning differently, depending on the types of media. Display text is usually kerned tightly, for example, the type on the poster preferably very precise, but in the book, we don't correct every word. Also, there is a particular kerning for capitals, the running text only in upper case is being kerned differently too, they are designed to be near lower case, look for example to two capital A near each other and then two capital H, you see that space is not in balance at all. Therefore we use lose kerning for capital words. When we want to use capitals in the book we use small caps, the letters become a bit smaller so they fit better. If the typeface doesn't have this option we can also use the semi bold or medium and scale them down. The typefaces are also specifically designed for display or printed media, this we can observe in contrast to the letters. The contrast actually influences the readability too, if the typeface with high contrast is used in the longer text the eyes of the reader have to concentrate more, therefore in the book is applied low contrast. The evenness can be fixed by adjusting the leading is adjust depending the length of serifs and also the contrast of the typeface, to help ourselves we can look at the text from 90 degrees angle for better visual judgment, if the words are having balanced space around, etc.. Usually we align every first line of the paragraph with the grid. If we use two sizes of the letters, we use leading which is multiplied so we can fit every other line on the grid too. Then we can also modify the space between the words, not too small not too big.
+          <br /><br /><br /><br />
+        </div>
+        <div id="txemma" style="display:none">
+          <br /><br /><br /><br />
+          <br />☝️The length of a line of text should be between 55 and 75 characters.
+          <br />☝️Therefore when the page is too large, it is good to split the text in columns.
+          <br />☝️The type size depends on the original dimensions of height and width of a glyph.
+          <br />☝️In books, when creating the interior margins always keep in consideration the binding method.
+          <br />☝️In books, when creating the exterior margins always keep in consideration the space for the thumb.
+          <br />☝️Margins should be harmonized on proportionals units, unless the concept requires differently.
+          <br />☝️The baseline grid is usually based on the line-spacing pints: is good to align each line of the ‘main text’ on the grid, but the line-spacing of headers and sub-headers must be proportioned to their sizes. Because…
+          <br />☝️The distance between the lines of text (f.i between title and subtitle and paragraph), should be a proportional multiple of a unit, usually based on the line spacing points. (f.i. 12.5pt = 6.25pt (half)/ 3.125pt (half of half)/ 9.375pt, etc.)
+          <br />☝️Glyphs such as ‘ or “ or << have all the same use, << comes from a french typographer. Which one to choose is a matter of preference.
+          <br />☝️In books, when placing a header for a chapter or any kind of important navigation, it is preferable to choose the right pages, since quick flipping through a book allows us to see mostly/only right pages.
+          <br />☝️When using a seriously well-made typeface, always set the kerning on ‘metrics’.
+          <br />☝️In the opposite case, when using s sketchy typeface, use ‘optical’, or adjust the kerning yourself.
+          <br />☝️When designing a page and choosing a typeface, keep in mind the printing technique you want to use.
+          <br />☝️If the page will be printed laser, make tests with the ‘density’ of the printer, to see which one matches the digital typeface better.
+          <br />☝️If the page will be printed with ink (f.i. Riso, silkscreen, ink-jet, etc), keep in consideration typefaces with ‘ink-traps’, or make tests to be sure that the size of the type won’t interfere so much with the readability and the quality of the print.
+          <br />☝️‘Indents’ are used for the separation of paragraphs (never used at the beginning of a text tho); but they can also be used to create dynamism and movement in the page (the same indent could match the page number and the title, or a sub-title and a header, etc).
+          <br />☝️Ligatures help the readability in a text: if a typeface has ligature glyphs, consider using them.
+          <br />☝️The superscripts, subscripts and small-caps in a text (f.i. 15’th’ or 2’nd’), must also be proportional to the type size. To set them go to InDesign > Preferences > Advanced Type > Superscript/Subscript/Small Cap, adjusting sizes and positions.
+          <br />☝️HYPHEN: use hyphen when breaking a line of text, to hyphen double words or prefix/suffix (f.i. good-looking / co-worker, etc).
+          <br />☝️EN DASH: Use en-dashes whit numerals or related concept (f.i. 1896-1945, May-October, etc).
+          <br />☝️EM DASH: Use em-dashes to break up sentences (Call my boss - Wanda Panda - to tell her…).
+          <br />☝️ELLIPSES: it is the name for the three-dotted glyph. If present in the typeface, use an ellipses instead of typing the three dots.
+          <br />☝️When having text and images on the same page, be sure that they have the same density and contrast, one should not be blacker/whiter than the other.
+          <br />☝️The page numbers in an index should be set in a row.
+          <br />☝️If you want to use justified text, be sure that the spaces between each word do not result too wide (check it by tilting the page 90deg), because it will interfere with the rhythm of the text-lines.
+          <br />☝️WIDOWS: final single word of a paragraph/line that has shifted to the next column. Always fix this.
+          <br />☝️ORPHANS: final single word of a paragraph/line that it’s left on its own. Orphans are not always something to get rid of, it just depends on the length of the word and the width of the column (f.i. if the word is long can be left where it is. / If the word is very small, fix it by adjusting the rag of the text)
+          <br />☝️Keep in mind white space as ‘breathing space’, when a page is too full it can exhaust the eye.
+          <br />☝️According to Beatrice Ward, typography and typefaces are a vessel for the content, which should be as clear as possible and not extravagantly designed. (but this is preferential of course)
+          <br />☝️Lists shouldn’t be designed using hyphens, the correct thing might be bullet points but if preferable asterisks can be used as well (always keep in mind that they are an apex character, so fix their position when using them in a list).
+          <br /><br /><br /><br />
+        </div>
+        <div id="txkatla" style="display:none">
+          <br /><br /><br /><br />
+          I always start a publication by analysing the content and creating a story. For me this is the key to create something fun and original. I start by drawing very roughly on a paper a few layouts only using rectangles. I also draw a lot in my head. I find very appealing when there is a layout that runes through the book and it’s been cut with a few other layouts. It creates tension. Then I decide on a paper size, I take 1 A4 paper and fold it until I get something that pleases me. Then I do the same to a second A4 and have a look how it’s visualises as a spread. If I’m content I start my Indesign document. I create a new file and set the size. The next steps are all intertwined so I don’t have a order.
+          <br />☝️When you start a Indesign file, you should consider using the master and paragraph styles to make your life easier but also to give a certain rhythm to the publication.
+          <br />☝️Your inner margin size depends on the binding method.
+          <br />☝️When you are sure of the tracking create a grid. And apply the text to follow the grid in the paragraph style.
+          <br />☝️There is a tool in the master to add numbers to all your pages automatically to the same position.
+          <br />☝️fi/fl/ft : In writing and typography, a ligature occurs where two or more graphemes or letters are joined as a single glyph. It gives a better spacing within your text.
+          <br />☝️For a better reading the margin should be the weight of your thumb. This is for the reader so it can hold it without having his fingers on the text.
+          <br />☝️The tracking must be increased or decreased within a block of text depending on the type. The best it’s to give it the same density than the images around. But also to adjust it for easier readability.
+          <br />☝️Your indent shouldn’t be too long, the best size is if it creates a square. By using indent you give movement to your text.
+          <br />☝️Never use the italic button if you don’t have the italic version of your font then change the typeface.
+          <br />☝️In the old medieval publications the text was positioned in the golden ration
+          <br />☝️When you make a enter within a block of text you should put a hyphen if you have a double enter you shouldn’t.
+          <br />☝️“” or ‘’ The first time you apply it you should put the sentence in one quote and inside this quote if there is one more it should be the double quote.
+          <br />☝️The length of line should be between 55 and 75 characters to make it easier to follow the text. You arrange your columns and text size depending on this rule.
+          <br />☝️If you using different size of text then you should make it according to the grid, so a multiple.
+          <br />☝️Paragraph style : word spacing - 70% 90% 110, Letter spacing -5% 0% 5%, take of Hyphenate last word.
+          <br />☝️In France you add a space between glyphs.
+          <br />☝️Hyphens, En Dashes, and Em Dashes:
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2. Hyphens - Shortest of the three, used commonly to combine words and separate numbers,
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;3. Em Dash - The longest, used to create a strong break in the structure (width of the  letter M),
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;3. En Dash - used to commonly to indicate inclusive dates and numbers (width of the letter N).
+          <br />☝️It is appropriate to use 2 different typefaces within a publication (max 3 ((not if it makes sense to use a different typeface for every paragraph)). The most common combination is a sans serif and a serif typeface.
+          <br />☝️Colour font : There needs to be the typefaces with the size, the paper, the name, the date. It should be placed at the end of the book
+          <br />☝️If you print the last version of a spectacular book make sure that the printer is been checked (there is a word for this but can’t seem to remember, I think it starts by a “R”) so the double sides of your pages matches.
+          <br />☝️If you decide on printing as a booklet make sure that it’s a multiple of 4.
+          <br />☝️If you decide to justify your text it is best to avoid hyphenations.
+          <br />☝️The paper has a big importance within the publication and you need to take notice to the cut it will impact the final result. There is a way to check witch side to cute by ripping your paper. The side that the cut goes the most smoothly is the way you need to cut your paper.
+          <br />☝️Ensure that the space between letters is appropriate. Some of the typefaces needs the kerning to be changed. If you flip it upside down you visualise the letters as a shape and get better idea of the spacing needed.
+          <br />☝️If you use a professional typeface set your paragraph on metrics otherwise use optical.
+          <br />☝️In the first year I learned that having orphans (A lonely word at the end of a paragraph set in a column) should be remove by tricking the space in-between letters. But then I also got told that it’s a crime to do so (exact words used).
+          <br />☝️When you decide to print make sure that your paper and printer doesn’t bleed your letters.
+          <br />☝️In the Index you should put the page numbers in a row. Example:
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;001
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;025
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;060
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;250
+          <br />☝️Teachers are not keen with coloured text ( I am curious to know why?)
+          <br /><br /><br /><br />
+        </div>
+        <div id="txivi" style="display:none">
+          <br /><br /><br />
+          <br />☝️RULE #1. You are the designer, you make the decisions. Use the rules to your favor, take them into consideration but if you want to break them, you can ALWAYS do so if you want.
+          <br />☝️RULE #2. Consider a grid. A grid is a structure by which text can be placed on a page. This is done by dividing the page horizontally and vertically by placing lines at certain increments. When you have a grid, you can then decide how to play with it, or even break it.
+          <br />☝️RULE #3. Consider the Margins. Margins are the area between the content of the page and the edge of the page. It defines therefore where the content of the page is placed: where it begins and where it ends. It is handy to use for structure. Also when making a book, consider the inner margins; their size is important when deciding the type of binding.
+          <br />☝️RULE #4. Consider the typeface. Choosing a typeface should be linked to legibility, function and the type of message you are trying to communicate with it. Choosing the size of the typeface is interrelated with the size of the page, and of course also legibility and function. Don’t mix too many typefaces, unless you want to > it can create chaos. Contemplate whether you want to use serif or sans-serif typefaces, each creating a different effect. Also think about the weight of the type, whether you want to go light, bold etc.
+          <br />☝️RULE #5. Consider a system. When designing a text, it is handy to create a system by which you place it. So every type of text such as a header, or body text etc. will have the same treatment, a.k.a typeface, typesize etc. Creating a coherent/consistent system will make your text/book/etc. easier to read and understand. Over all, keep your system simple, if you mix too many ideas it becomes hectic/illegible
+          <br />☝️RULE #6. Consider a baseline grid. These are vertical divisions that can be used to create consistent spacing of your text/typographic elements. Make sure your baseline grid coincides with the size of your typeface and the leading (space between the lines)
+          <br />☝️RULE #7. Consider alignment of the text. There are a couple of options to align a text; The one most used is left-aligned text, which literally aligns the text to the left side of the page. The second option is to Right align the text, which does the opposite, and aligns the text on the right side of the page. Then additionally you have centered as an option, where text aligns to the center of the page. When you type, the text spreads equally to each side of the page. Lastly you have the option to justify the text, which combines the first 2 types of alignment, and tries to spread the text to fill the entire line from left to right. Each line does this.
+          <br />☝️RULE #8. Consider hierarchy. What part of the text do you want to stand out more? Which text is more important? Play accordingly with either the typography, the type size or the order in which the text is placed on the page. The options are endless.
+          <br />☝️RULE #9. Consider White Space. White space is the space on the page that is literally white, or otherwise put “left blank”. This provides some breathing room for the eye of the beholder. If used well it can really uplift and transform your design/page.
+          <br />☝️RULE #10. Consider using Columns. When placing text on a page, don’t only put it there in one block (unless you want that). Consider splitting the text up in (multiple) columns and alternating between the size of these columns. Play with it according to your wants and needs for the text.
+          <br />☝️RULE #11. Consider the kerning and the tracking. Kerning is the space between two characters of a typeface, and if deemed necessary one can change this space to achieve a visually more pleasing result. Tracking is the space between all letters in a word. Too much tracking can be a constraint on legibility.
+          <br />☝️RULE#12. Consider the message you want to communicate. The text has a certain message, but you as a designer also have a certain thought/message in mind which you want to communicate. Consider both when placing the text. This has influence on all elements of the page.
+          <br />☝️RULE#13. Consider the masterpage. Use it as a tool to make a grid, and a system for certain pages of your text file.
+          <br />☝️RULE #14. Consider Simplicity. Sometimes simple is the way to go. Overcomplicating a concept or a grid for a text makes legibility and overall observation of the text confusing.
+          <br />☝️RULE #15. Consider the language. Each language has a different rhythm and different rules by which text should be used. Consider these when placing the text.
+          <br />☝️RULE #16. Consider the size of the page. It will influence all your choices
+          <br />☝️RULE #17. Consider hyphenation, don’t use it unless you make sure it’s done well, and makes sense for your text.
+          <br /><br /><br /><br />
+        </div>
+        <div id="txian" style="display:none">
+          <br /><br /><br />
+          <br />☝️2 typefaces , big and small, bold and thin
+          <br />☝️serf + sanserif, vice versa
+          <br />☝️don't align right
+          <br />☝️never stretch a typeface
+          <br />☝️short columns + justification = “rivers"
+          <br />☝️Big type you can use tighter leading, text type requires more space
+          <br />☝️a good average for words in a line is around 10
+          <br />☝️too big tracking = unreadable, too tight tracking = claustrophobic
+          <br />☝️Gimmicks/tricks:
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1. white type on black background,
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2. outline text,
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;3. placing elements in corners
+          <br />☝️too small margins can be dangerous when cutting your book
+          <br />☝️for paragraphs: either indent or skip a line, never both
+          <br />☝️a grid gives a text structure, breaking it gives it life
+          <br />☝️in most cases, page numbers should be discreet
+          <br />☝️be aware which type of numerals you use (Old style or Caps)
+          <br />☝️if you want your lines to align through different font sizes, their leading should be multiples of each other
+          <br />☝️if you want letters to align vertically, use monospaced fonts
+          <br />☝️try to reuse measurements of your grid to guide you where to place something on your layout
+          <br />☝️subdividing your grid in half cab give you more flexibility in placement of elements
+          <br />☝️square page formats are usually quite static
+          <br />☝️don’t hyphen to the last line in a paragraph
+          <br />☝️avoid justifying in small columns
+          <br />☝️avoid vertical sentences for they are hard to read
+          <br />☝️average minimum type size 4 pts
+          <br />☝️don't finish a page with the first line of a paragraph
+          <br />☝️don’t leave a lone word on the last line of a paragraph, unless it is a big word
+          <br />☝️when in doubt: helvetica
+          <br />☝️centered text gives a very traditional/old characteristic to the text, left align is more modern
+          <br /><br /><br /><br />
+        </div>
+        <div id="txlinea" style="display:none">
+          <br /><br /><br />
+          <br />☝️be consistent!
+          <br />☝️a text line have to be between 65-75 words, the case of legibility.
+          <br />☝️have a hierarchy of your types, make it clear of what you want the reader to read first.
+          <br />☝️don't have more than 3 fonts on a page.
+          <br />☝️Sometimes is it your eyes that is most reliable than rules and guidelines.
+          <br />☝️don't ever use Helvetica, comic sans.
+          <br />☝️The only people that use Helvetica is because they don't know better
+          <br />☝️don't ever make the text centered and italic (it's only fashion people)
+          <br />☝️no orphan
+          <br />☝️no widow
+          <br />☝️Hierarchy, Hierarchy, Hierarchy. is the most important of every visual language.
+          <br />☝️don't make a river though your text
+          <br />☝️follow a grid, make a grid
+          <br />☝️don't make it like shrimp with shrimp. (don't overdo it)
+          <br />☝️keep it simple
+          <br />☝️less is more
+          <br />☝️Make a flow, make it interesting, page by page.
+          <br />☝️Don't ever use size 12 of a font.
+          <br />☝️make the size a reading text between 8-9 size
+          <br />☝️Print it out
+          <br />☝️Is you are going to make a text online, its best to use a sans serif. If going to be printed is best use a serif font. To make the most legibility for the reader
+          <br />☝️justify-text 60% 80 100%, -2, 0, 5.
+          <br />☝️"Did you use hours on lay-outing that I could have done it in 5 minutes"
+          <br />☝️"My boyfriend saw this text poster, but he didn't want to pay 30 euros for that poster because he thought he could make the same and even better. So he made it himself in word"
+          <br />☝️"Graphic design is just a paper of text"
+          <br /><br /><br /><br />
+        </div>
+        <div id="txscientist" style="display:none">
+          <br /><br /><br />
+          <br /><span id="listing">BASELINE GRID</span>
+          <br />Responsive environments make applying baseline grids even less appealing, so arguably your time might be better invested in more pragmatic matters.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;A good line height for paragraphs on the web usually lies between 1.3–1.6 (which is proportional to the font size). Titles can and should be a bit tighter. A good benchmark to keep in mind is that readers should be able to jump to the start of the next line easily. You don’t want to burden users with some sort of mental overhead, needing to look concentrate as to where they should continue to read when they reach the end of a line of text.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Varying degrees of line height can also (bizarrely) impact the color of your text. Tighter line heights appear darker since the micro whitespace between lines of text is reduced—and vice versa of course. Finding a balance so that text that looks coherent, light and readable is your goal while adjusting this spacing. Read the text, use real text not dummy ipsum and see how it feels. Is it a good reading experience? This should be at the forefront of your mind—always!
+          <br /><span id="listing">LINE SPACING</span>
+          <br />At text sizes (about 7 to 14pt) mechanical line space values (120% of the hight of the "H") are fine for optical correctness. But for larger sizes, capital letters as well as sascending and descending letter parts will have some effect of the readers perception of linespacing. Very often, lines of display type need to be adjusted from mechanical accuracy to optical correctness (e.g. from 19mm line distance to 20mm).
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Line spacing must be larger than the common value of 120% for text with accented characters. Even more line space is needed for text with footnote reference. It would be very bad looking if only the lines containing a footnote reference would have a larger distance to the top line.
+          <br /><span id="listing">WORD SPACING</span>
+          <br />Word spacing should be even. Condensed typefaces, typefaces with a small x-hight, and sans serif typefaces all require that word spacing be tight as well as optically even. The most efficient reading is though the process of seeing three or four words at a single glance. Sometimes this process should be aided by reducing normal word space values slightly. The normal word space is the inner width on an "n" chacracter.
+          <br />☝️Punctuation (periods, hyphens, commas, apostrophs and quotation marks) should fall outside the right edge of the column.
+          <br />☝️List marks, for example, the n-dash should fall outside the left edge of the column.
+          <br />☝️Headings shouldn’t be on a blank page next to the text, to much room.
+          <br />☝️Always think if what you are doing is correct for your purpose, every move must be justified.
+          <br /><span id="listing">FONT SELECTION</span>
+          <br />The font selection should always be made dependent on readability of the text. This is also true in web design: legibility first, aesthetics second.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Creativity and extravagance must nevertheless not be completely left out. Particularly for headings or sub-headings, fancier fonts can be selected. The main text on the other hand should be kept in a more classic and most legible form.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;The contrast should also be taken to ensure the readability of the text. The text contains the message of a page and is always the top priority – especially in web design.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;The text must be readable by the selected contrast of text colour and background colour. Black on white is a classic, as there is no greater contrast of colours. However, too much of a contrast, such as black on white background is exhausting for our eyes. A suitable compromise is a dark grey on a white or light grey background. The contrast chosen by the information architects is adjusted in both directions. The text is a dark grey on a light grey background.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;If it is to be more colourful, the same principle applies: the contrast must be right. An orange colour on a red background definitely does not deliver the best result. A dark blue on a red background has a better effect.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;We have tons of typefaces to choose from these days. And not only that, we have tons of services that want to help us with that. It can take a while to get a sense what’s out tere actually. But to me, that is entirely a good thing. Web typography has come a long way, not only in terms of the ecosystem, but in terms of what browsers let you do these days.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;When deciding which typefaces you want to use, I’d recommend that you first of all focus on the readability and style that you want to convey in your designs. The tone and the message are also important since type has a huge influence on this through its various characteristics. If you can manage to do all that, you will set yourself apart from the rest of the herd pretty significantly.
+          <br /><span id="listing">Pairing Typefaces</span>
+          <br />Make sure that you create good contrast between the paired choices. Typefaces that look too similar can end up looking confusing and affect your visual hierarchy negatively. Bigger typeface families also have the benefit of having tons of options to vary the one example. That way you can only use one typeface without looking boring.
+          <br /><span id="listing">HIERARCHY</span>
+          <br />It is important that you convey a strong hierarchy within your typography. Why? Because as we established at the beginning of this piece, the type on the page make for roughly 95% percent of your design. If you have weak hierarchy within your text, you won’t have a snowball’s chance in hell of creating strong hierarchy in your overall design.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Typography offers you multiple ways to give your users visual anchors to navigate your site the way you want them to. Through emphasis you can let them know what is most important and what they should pay attention to first.
+          <br /><span id="listing">COLOR</span>
+          <br />If you don’t have much color on a page, elements which do have color really stand out. As always, less is more. As the examples below only use color sparingly the effect is very strong—even without increasing the size or additional white space.
+          <br /><span id="listing">WHITESPACE</span>
+          <br />Give important typographical elements room to breath. If they are surrounded by empty space they are emphasised simply by that. Newcomers seem to shy away a bit from using much space between elements. In print this can be costly, but on the web you get this stuff for free. Play around, watch out what other designers come up with and steal on occasion. No magic and no rocket science though. Just a little experience is all you need—eventually you will develop a good gut measure.
+          <br /><span id="listing">WEIGHT</span>
+          <br />An extensive typeface family will give you plenty of weights to choose from. In many of the examples above you can see various weights for different purposes at work. For me, this is not something I jump to right away and usually try the other tools to create hierarchy first. But this is a matter of taste, whatever works best for you and your designs.
+          <br /><span id="listing">ITALICS</span>
+          <br />Italics are great for secondary or tertiary information in running text (or emphasis, of course). The example below makes good use of them for displaying an address.
+          <br /><span id="listing">FONT SIZE</span>
+          <br />When the width and margins of the text container have been set, the line length can be chosen. A good guideline for a row is 8 to 12 words or 45 to 85 characters. The font size is critical to the number of characters.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;The font size must ensure that the reader has a pleasant reading experience at a normal distance to the output medium. The font should be large enough that the distance to the screen does not need to be reduced and must be small enough that the reader is not too distracted during line jumps. A good average value for the font size is 16px – from there, the font size can be adjusted.
+          <br /><span id="listing">ELLIPSIS</span>
+          <br />An ellipsis refers to the three dots that can easily be mistaken as three single periods. The difference is that they have more spacing between each period. You can use extra space to the left and right, it’s up to you to decide. Use this when you want to omit content—words, phrases, lines, paragraphs or parts of quotes. It’s a placeholder to indicate that you left out some text.
+          <br /><span id="listing">HYPHEN</span>
+          <br />There is no need for extra spaces around hyphens. Their main purpose is to link words together, like fine-art, 8-year-old and such.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;They are your only choice for prefixes and suffixes as well. You should also use them if you need spell out a word: T-U-T-S-P-L-U-S. Spanning time and distance is also part of their repository:
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;☝️03:45-04:00 p.m.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;☝️1938-1945
+          <br /><span id="listing">EN DASH</span>
+          <br />The en dash takes its name from the length of the lower-case letter “n”. It is a little bit longer than a hyphen and is used for ranges of values as well as for implying relationships like master–student. Or for emphasis.
+          <br /><span id="listing">EM DASH</span>
+          <br />The em dash is again a little bit longer, the size of the upper-case letter “m”. They should be used to emphasise a pause of thought and indicate that a sentence is unfinished. Both dashes can appear a little bit thinner than a hyphen—usually. Please don’t use two hyphens in cases where en or em dashes are more suited. Neither version of dashes requires an extra space around it.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;I know, these punctuation details don’t sound all too dashing, but this basic knowledge of how to use them properly should be important for you if you like designing with good typography in mind. It also might seem trivial to have three sorts of dashes you can choose from because they look really similar, but on the other hand, a lot of care and consideration has been poured into these over the years and we should respect the work of designers who came long before us. It is their hard work and pioneering that makes it so easy to build upon today. Paying attention to these details is a small price to pay for standing on the shoulders of giants.
+          <br /><span id="listing">RAG</span>
+          <br />Everyone treats it different. Make sure to take time and think about how it relates to text (casual - casual rag not straight…).
+          <br /><span id="listing">MARGINS</span>
+          <br />Margins of the same size never result in interesting design - gives an impression of dullness and indecisiveness.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Quadragesimo-octave or forty-eightmo 6.5 x 10
+          <br /><br /><br /><br />
+        </div>
+        <div id="txpresident" style="display:none">
+          <br /><br /><br /><br />
+          ☝️Never stack words
+          <br />☝️Never stack hyphens
+          <br />☝️No rivers or loose lines
+          <br />☝️Use a minimum of 3 lines in a paragraph at the end and beginning of columns
+          <br />☝️Sans serif copy point size between 7–10, Serif copy point size between 8–11
+          <br />☝️Never have 2-letter hyphens at the end of a line
+          <br />☝️No widows or orphans on a line ending a paragraph
+          <br />☝️Always have a good undulating rag for copy settings
+          <br />☝️Always make sure your punctuation marks are the correct format
+          <br />☝️Use a minimum of +4 for leading
+          <br />☝️Never less than 5 words per line, Never more than 15 words per line
+          <br />☝️A word following a period at the end of a line must be at least 3 characters or more
+          <br /><br /><br /><br />
+        </div>
+        <div id="txanke" style="display:none">
+          <br /><br /><br /><br />
+          When you copy-paste a text into indesign make sure that you get rid of all the pre-formatting elements such as line breaks etc.
+          <br />☝️When starting on a new project, think of the layout and create a master page for you spreads. You can then easily copy paste your text within the created layout. It will make the designing process faster and when you’ll have to adjust some parts of the text it won’t destroy your whole design.
+          <br />☝️Know your hyphens. Know the difference between an En (-) and an Em (–), and know when to use them. En dash is used to separate words en numbers, Em dash is used for strong breaks within the text.
+          <br />☝️Don’t go too crazy with the number of typefaces you use within a publication. Stick to 2 or 3 in your whole publication. Keep it clean.
+          <br />☝️Do some print test of your publication.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1. Print out your whole publication in a small format with multiple spreads per pages. You can really see the rhythm of the book when you have them all next to each other.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2. Print out spreads in actually size, it always looks different when you work on your screen than when you have it printed
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;3. Do test prints on the paper you would like to use. Ink reacts differently depending on the paper, you might need to adjust the thickness of your characters.
+          <br />☝️Keep your indesign file clean.
+          <br />☝️Learn your shortcuts for the program you use to design a publication, it can speed up the process of designing and cleaning up your document.
+          <br />☝️Think of the binding when you design you book. The way you bind your book should influence your margins. If the binding makes it hard to fully open the book, you will need to think of adding more margin between the pages for readability.
+          <br />☝️When you try to break a rule, make it very obvious otherwise it will only look like a mistake.
+          <br />☝️Be aware of kerning mistakes, when in doubt turn your document or computer around. When you can’t read the words properly the kerning between the letters becomes more obvious.
+          <br />☝️You can create different paragraph style and directly implement them into your design or text box. You can do the same with character style. This will help you to speed up the designing process.
+          <br />☝️Think of the readability/function of typefaces. Some typefaces are designed to be used in big formats, they are called display typefaces. Inktrap typefaces are designed to be readable in small sizes–Small part on the letters are cut out to make sure the ink doesn't spill over and the type stays readable in small.
+          <br />☝️Add the page numbers in the master, it will automatically fill them up in your whole publication.
+          <br />☝️When you have a block of text you have the option to make a justified or unjustified text. Justified is when the text fills up the whole box and is very square and structured. Non-justified is when the text can flow freely at the end but still stays within the text box. Justified text can be hard to make as the space between the words might become very tight or too wide. You can go into paragraph style and change the settings to make it look better.
+          <br />☝️When you make a publication think of the structure of the book;
+          <br />☝️Cover, Table of Content, Introduction, Main Text, Conclusion, bibliography, colophon and back cover.
+          <br />☝️Colophon is where you put all the credits, you can write the name of the writer, publisher, designer, typeface and type-designer, papertype, printer, print run and sponsors.
+          <br /><br /><br /><br />
+        </div>
+        <div id="txhandi" style="display:none">
+          <br /><br /><br /><br />
+          <br /><span id="listing">About micro typography</span>
+          <br />I have almost 0 knowledge about this part. That is why I all the time have problems when it comes to book design.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;./,;’ … All of these symbols are called Punctuation mark. Still, it is somehow hard to define what it is and how it works.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;☝️“ ” ” This is called quotation mark.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;☝️“,” This is called commas.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;☝️“ . “ This is called period.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;☝️“?” This is called question mark.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;☝️“!” This is called exclamation point.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;☝️“ ; “ This is called semicolon.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;☝️“ : “ This is called colon.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;What is the function of Semicolon and Colon?
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;☝️“[]” This is called Bracket.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;☝️“{}” This is called Brace.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;☝️“()” This is called Parentheses
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;When do I specifically put this marks?
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Yesterday, while cleaning the text that I chose_Little Expressionless Animal, I was confused by the quotation mark.
+          In the novel, the quotation marks are often used as what the character is talking about. Every saying is broken in line like blocks. But, if the other’s saying should follow after one’s saying directly, should the comma be used for indicating two sayings are not from one character, or should there be nothing in between them.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;If I think about English and Korean, Are they using different punctuation marks? Or are the marks used in a different way? Or are there preferred marks in each system?
+          In English writing, I can see this _ which is not in use in Korean.
+          <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;The paper which is generally regarded as cheap and used for trying out, contains quite high percentage of wooden pieces. The problem of this paper is that it is easy to change its colour. Even if this paper is kept with other papers. The change is contagious, other papers will be affected by this paper.
+          <br /><br /><br /><br />
+        </div>
+
+      </div>
+
+      <div class="informationbox">
+        <div id="infoabout">
+          Everything<br />
+          <div id="special">We</div><br /><br /><br /><br />Know About<br />
+          Typography
+          <div id="quotes" style=" font-size:2.5vw;font-style:normal;"><br /><br />
+            Collective writings from KABK graphic design class yr21. A project directed by Matthias Kreutzer.
+          </div>
+        </div>
+        <div id="infomerel"style="display:none" >
+           How to Put<br />
+           Text on
+           <div id="special">Paper</div>
+        </div>
+        <div id="infoolga"style="display:none" >
+          [un-<br />
+          titled]
+        </div>
+        <div id="infosjors" style="display:none">
+          Everything<br />
+          <div id="special">IKNOW</div><br />
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;about<br />
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;type-<br />
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;setting
+        </div>
+        <div id="infosoyun" style="display:none">
+          Typography?
+          <div id="special">What's</div><br />
+        </div>
+        <div id="infoyana" style="display:none">
+          [untitled]
+        </div>
+        <div id="infoquoter" style="display:none">
+          what I <br />
+          know about<br />
+          TYPO-<br/>GRAPHY?<br />
+          <br /><br /><br />
+          <div id="quotes">
+            “The aim of all good typography is form subordinated to legibility.”
+            <br />-- EMIL RUDER
+          </div>
+        </div>
+        <div id="inforadek" style="display:none">
+          rules<br />
+          about <br />
+          TYPE- <br />
+          SETTING<br />
+          <br /><br /><br />
+          <div id="quotes">
+            All rules can be broken, but some things are proven to usually work.
+          </div>
+        </div>
+        <div id="infoaurora" style="display:none">
+          All<br />
+          <span id="special">AU-<br/>RO-<br/>RA</span>
+          Knows About Typography
+        </div>
+        <div id="infosaskia" style="display:none">
+          Typesetting<br />
+          S<br />T<br />R<br />E<br />A<br />M<br />
+          of<br />
+          consciousness
+        </div>
+        <div id="infosacha" style="display:none">
+          [untitled]
+        </div>
+        <div id="infomika" style="display:none">
+          <div id="special">ALL</div><br /><br /><br /><br /><br />
+           I know about <br />
+           typesetting
+        </div>
+        <div id="infokexin" style="display:none">
+          <div id="special">NO</div><br /><br /><br /><br />
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;title
+        </div>
+        <div id="infosonia" style="display:none">
+          [untitled]
+        </div>
+        <div id="inforalph" style="display:none">
+          how to
+          <div id="special">PUT</div><br /><br /><br /><br /><br />
+          text<br />
+          on a page?
+        </div>
+        <div id="infokristiana" style="display:none">
+          [untitled]
+        </div>
+        <div id="infoada" style="display:none;">
+          adaadaad<br />aadaadaad<br />aadaadaa
+        </div>
+        <div id="infoerica" style="display:none">
+          EVERY-<BR />THING
+          <div id="special">I</div>
+          <br /> know about typography
+        </div>
+        <div id="infofabiola" style="display:none">
+          <div id="special">TYPE-</div><br /><br /><br /><br /><br /><br /><br />setting
+        </div>
+        <div id="infoagata" style="display:none">
+          <br /><br /><div id="special" style="font-size:7vw;">SORRY</div><br />
+            <br /><br />  <br />if this isn’t<br />
+          new page but<br />
+          I’m doing it<br />
+          on my phone.
+        </div>
+        <div id="infodaniela" style="display:none">
+          [untitled]
+        </div>
+        <div id="infokilia" style="display:none">
+          [untitled]
+        </div>
+        <div id="infoadriana" style="display:none">
+          what
+          <div id="special">WE</div><br /><br /><br /><br /><br />
+          know<br />
+          about type setting
+        </div>
+        <div id="infoocean" style="display:none">
+          Ocean's<br />
+          typesetting<br />
+          <div id="special">RULES</div>
+        </div>
+         <div id="infomalik" style="display:none">
+           Malik's<br />
+           Pro Type<br />
+           <div id="special">TIPS</div>
+        </div>
+        <div id="infoeunji" style="display:none">
+          Eunji's<br />
+          <div id="special">RULES</div>
+       </div>
+       <div id="infotereza" style="display:none">
+         [untitled]
+        </div>
+        <div id="infoemma" style="display:none">
+          Emma's<br />
+          typographic<br />
+          <div id="special">RULES</div>
+       </div>
+       <div id="infokatla" style="display:none">
+         Katla's<br />
+         TYPO<br />
+         <div id="special">RULES</div>
+       </div>
+       <div id="infoivi" style="display:none">
+         Things I<br />
+         know about<br />
+         <div id="special">placing</div><br /><br />
+         &nbsp; &nbsp; &nbsp; &nbsp;type<br />
+       </div>
+       <div id="infoian" style="display:none">
+         typography<br />
+         <div id="special">"RULES"</div>
+       </div>
+       <div id="infolinea" style="display:none">
+         rules that<br />
+         Linea<br />
+         <div id="special" style="margin-top:-80%">HAVE HEARD</div>
+       </div>
+       <div id="infoscientist" style="display:none">
+         [untitled]
+       </div>
+       <div id="infopresident" style="display:none">
+         [untitled]
+       </div>
+       <div id="infoanke" style="display:none">
+         <div id="special">What</div><br /><br /><br /><br />
+         &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;do I<br />
+         &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;know?
+       </div>
+       <div id="infohandi" style="display:none">
+         <div id="special">Handi...</div><br /><br /><br /><br />
+         &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;A4 21 *<br />
+         &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;29,7
+
+       </div>
+      </div>
+   </div>
+
+</body>
+
+</html>
