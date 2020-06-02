@@ -44,7 +44,7 @@ a:hover, a:active, a:visited{
   box-shadow:inset 0px 0px 2vh 0.3vh #d5e5ff;
   background:linear-gradient(to right, #e4e4e4 2%, #757575 70%);
   background-color:#9683a7;
-  border-radius:50vh;
+  border-radius:100%;
   display:inline-block;
   padding:1.2vh 1.2vh;
   text-decoration:none;
